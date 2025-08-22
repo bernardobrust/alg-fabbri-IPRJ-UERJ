@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibmerge.a CMakeFiles/libmerge.dir/sorted_merge_3way.cpp.o
+/usr/bin/ranlib liblibmerge.a

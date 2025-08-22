@@ -1,0 +1,59 @@
+Start testing: Aug 22 16:09 -03
+----------------------------------------------------------
+1/2 Testing: JuntaListasTest.ValidMerge
+1/2 Test: JuntaListasTest.ValidMerge
+Command: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests" "--gtest_filter=JuntaListasTest.ValidMerge" "--gtest_also_run_disabled_tests"
+Directory: /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests
+"JuntaListasTest.ValidMerge" start time: Aug 22 16:09 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = JuntaListasTest.ValidMerge
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from JuntaListasTest
+[ RUN      ] JuntaListasTest.ValidMerge
+1 3 4 6 10 11 16 21 25 
+[       OK ] JuntaListasTest.ValidMerge (0 ms)
+[----------] 1 test from JuntaListasTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"JuntaListasTest.ValidMerge" end time: Aug 22 16:09 -03
+"JuntaListasTest.ValidMerge" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: JuntaListasTest.UnsortedInput
+2/2 Test: JuntaListasTest.UnsortedInput
+Command: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests" "--gtest_filter=JuntaListasTest.UnsortedInput" "--gtest_also_run_disabled_tests"
+Directory: /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests
+"JuntaListasTest.UnsortedInput" start time: Aug 22 16:09 -03
+Output:
+----------------------------------------------------------
+Running main() from /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = JuntaListasTest.UnsortedInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from JuntaListasTest
+[ RUN      ] JuntaListasTest.UnsortedInput
+Alguma das listas nao esta ordenada
+[       OK ] JuntaListasTest.UnsortedInput (0 ms)
+[----------] 1 test from JuntaListasTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"JuntaListasTest.UnsortedInput" end time: Aug 22 16:09 -03
+"JuntaListasTest.UnsortedInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 22 16:09 -03

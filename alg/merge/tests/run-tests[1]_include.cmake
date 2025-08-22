@@ -1,0 +1,5 @@
+if(EXISTS "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests[1]_tests.cmake")
+  include("/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests[1]_tests.cmake")
+else()
+  add_test(run-tests_NOT_BUILT run-tests_NOT_BUILT)
+endif()

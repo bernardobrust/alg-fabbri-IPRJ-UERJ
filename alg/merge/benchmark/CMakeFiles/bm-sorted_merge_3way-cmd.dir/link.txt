@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -pedantic -Wl,--dependency-file=CMakeFiles/bm-sorted_merge_3way-cmd.dir/link.d "CMakeFiles/bm-sorted_merge_3way-cmd.dir/bm_sorted_merge_3way.cpp.o" -o bm-sorted_merge_3way-cmd  ../liblibmerge.a ../../../third_party/benchmark/src/libbenchmark.a -lrt

@@ -1,0 +1,5 @@
+add_test([=[JuntaListasTest.ValidMerge]=]  /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests [==[--gtest_filter=JuntaListasTest.ValidMerge]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[JuntaListasTest.ValidMerge]=]  PROPERTIES WORKING_DIRECTORY /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[JuntaListasTest.UnsortedInput]=]  /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests [==[--gtest_filter=JuntaListasTest.UnsortedInput]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[JuntaListasTest.UnsortedInput]=]  PROPERTIES WORKING_DIRECTORY /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  run-tests_TESTS JuntaListasTest.ValidMerge JuntaListasTest.UnsortedInput)
