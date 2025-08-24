@@ -1,0 +1,41 @@
+
+name: C++ Benchmark
+
+on:
+  push:
+    branches: [ "main", "master", "priv" ]
+  pull_request:
+    branches: [ "main", "master", "priv" ]
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+
+      - name: Build benchmarks
+        run: |
+          mkdir build
+          cd build
+          cmake .. -DBUILD_THIRD_PARTY_TESTS=OFF
+          make
+
+      - name: Run benchmark
+        run: |
+          ./build/alg/merge/benchmark/bm-sorted_merge_3way-cmd --benchmark_out_format=json --benchmark_out=benchmark_results.json
+
+      - name: Store benchmark results
+        uses: benchmark-action/github-action-benchmark@v1
+        with:
+          name: C++ Benchmark Results
+          tool: 'googlecpp'
+          output-file-path: benchmark_results.json
+          # Use the github token to add the results to the PR
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # Auto-push new results to the gh-pages branch
+          auto-push: true
