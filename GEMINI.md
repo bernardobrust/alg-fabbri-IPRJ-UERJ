@@ -22,6 +22,10 @@ one and the aggregator of all the other ones through git submodules
 
 ## Configuring and compiling
 
+### After cloning
+
+git submodule update --init --recursive
+
 ### Building (Human workflow)
 
 ```
@@ -70,8 +74,8 @@ Check out the Action tab in github to see if the benchmark has been run.
         ├── cmd/                  : commandline CLI for the algorithm(s)
         ├── benchmark             : folder with command to benchmark the algorithm(s)
         └── tests                 : folder with command to test the algorithm(s)
-    
-#### Benchmark statistics plots
+
+### Benchmark statistics plots
 If you want to see plots for your results,
 after you push to your fork, go to Github,
 go to the course project page,
@@ -82,6 +86,22 @@ you will see the plots for the projects on github.
 
 If you just want to see everybody's results, 
 go to rfabbri/
+
+#### Benchark aarchitecture details
+Benchmark works with google benchmark generating a benchmark executable from C++
+benchmark, which can output JSON to be plotted on your favorite software.
+
+C++ --> JSON --> Plots in branch gh-pages index.html
+
+The benchmark is plotted by default by a github action every time a new commit
+is pusshed. Github runs the benchmark on a standar computer, then outputs the
+resuls to the gh-pages branch, with data.js having the benchmark data.
+Currently the plot code is in index.html, and the plot can be accessed either
+by pulling the gh-pages branch after a benchmark and opening index.html in the
+broser, or by visualizing the plots in github at:
+
+http://rfabbri.github.io/alg-fabbri-IPRJ-UERJ/dev/bench/
+
 
 ## C Coding Style
 - Follow K&R style closely, the one in ANSI C programming language

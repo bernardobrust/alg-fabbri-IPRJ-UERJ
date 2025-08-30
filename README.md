@@ -139,7 +139,7 @@ Lista de exercicios (explicada em aula)
 Na aula prática você tera 30 min para programar um algoritmo similar solicitado
 pelo professor.
 
-### Tarefa 2 para qui29ago25
+### Tarefa 2 para sex29ago25
 **ATENCAO:** Tarefa 2 ainda sendo atualizada
 
 #### Mini-tarefa: ler sobre git
@@ -197,13 +197,28 @@ pelo professor, onde a lista encadeada pode armazenar um tipo de dado mais
 complexo que int. Realize treinos programando exercicio de livros ou internet
 sobre lista encadeada. *Pode usar IA nesta avaliacao especificamente.*
 
-### Tarefa 3 para qui29ago25 + 7
-**ATENCAO:** Tarefa 3 ainda sendo atualizada
+### Tarefa 3 para sex05set25
 
 #### Mini-tarefa: ler sobre git branching
 Ler capitulo 3 do livro Pro Git https://git-scm.com (Getting Started e
 Git Basics).
 Serao feitas perguntas em aula
+
+#### Tarefa principal
+Terminar de realizar a programação de listas encadeadas de nós contendo strings,
+dentro do seguinte projeto: editor de estruturas basicas
+
+**Entrada**
+- Digite o tipo de implementacao de lista: (1) Encadeada (2) Duplamente encadeada (3) Buffer circular
+    - Para cada opcao: digite (i) para inserir (d) deletar. 
+- Para cada dessas opcao: escolher posicao para inserir e posicao para deletar
+As listas sao todas de strings
+- Nao pode ser usada STL, mas bonus sera dado a quem comparar com STL.
+- procure usar malloc e nao new, para aprender manipulacao de bytes.
+- Permitir ao usuario escolher a representacao de string dentro de no: char * ou
+  char name[MAX_CHARS]
+- Escrever casos de teste para cada combinacao na pasta tests/
+
 
 ## Livros
 - A melhor referencia para cada algoritmo
@@ -216,7 +231,8 @@ Serao feitas perguntas em aula
 
 ## TODO
 - abrir ticket de suporte IPRJ (alunos tambem devem)
-    - wifi uerj1 no lab 309 lenta
+    - wifi uerj1 no lab 309 continua lenta
+    - solicitar conexao a cabo liberada
 
 ## See also
 - Dijkstra On the foolishness of "natural language programming" https://news.ycombinator.com/item?id=43564386 

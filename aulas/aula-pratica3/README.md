@@ -1,20 +1,14 @@
-# UNDER CONSTRUCTION -----------------------------------------------------------
 # Practical Lecture 3
 
-## Continuing with AI 
-
-### Ask it to write a function to sort vectors!
-- The vectors of unsigned char elements, but can be small or up to 1MB in size.
-- The tests must include a benchmark of runtime
-- Run and see the code
-- Now write your own and test
-- Verify that corner cases are tested, if not add them
-
-### Prof: Introduce Bsort
-- by hand vs AI
-- concept of O(n) vs O(nˆ2) or O(nlogn)
-
-### Evaluation / scoring
-- Eval each item in of Tarefa 2
-
-# UNDER CONSTRUCTION -----------------------------------------------------------
+## LOG
+- devido a falta de internet wifi e a cabo em computadores pessoais, incluindo do
+  professor, nao foi possivel fazer a atividade com IA
+- foi trabalhada a tarefa 2 sobre listas encadeadas
+    - Iniciamos um novo arquivo no build system para incluir a lista encadeaa
+    - Iniciamos duas formas de se declarar e alocar um nó que contém uma string
+        - uma com char *nome e outr com char nome[max] dentro do no.
+        - praticamos como ponteiros funcionam, malloc, literais constantes de string
+          pre-alocadas, etc.
+- Foi dada nota a todos os alunos que responderam à chamada e fizeram um relato
+  da situação do código, e bônus de 2x nota da atividade para os que fizeram
+  corretamente ou próximo do correto.
