@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/libmerge.dir/linked_list_string.cpp.o"
+  "CMakeFiles/libmerge.dir/linked_list_string.cpp.o.d"
   "CMakeFiles/libmerge.dir/sorted_merge_3way.cpp.o"
   "CMakeFiles/libmerge.dir/sorted_merge_3way.cpp.o.d"
   "liblibmerge.a"

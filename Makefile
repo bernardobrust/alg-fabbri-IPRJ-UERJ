@@ -913,6 +913,19 @@ sorted_merge_3way-cmd/fast:
 .PHONY : sorted_merge_3way-cmd/fast
 
 #=============================================================================
+# Target rules for targets named linked_list_string-cmd
+
+# Build rule for target.
+linked_list_string-cmd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linked_list_string-cmd
+.PHONY : linked_list_string-cmd
+
+# fast build rule for target.
+linked_list_string-cmd/fast:
+	$(MAKE) $(MAKESILENT) -f alg/merge/cmd/CMakeFiles/linked_list_string-cmd.dir/build.make alg/merge/cmd/CMakeFiles/linked_list_string-cmd.dir/build
+.PHONY : linked_list_string-cmd/fast
+
+#=============================================================================
 # Target rules for targets named run-tests
 
 # Build rule for target.
@@ -980,6 +993,7 @@ help:
 	@echo "... internal_threading_test"
 	@echo "... libmerge"
 	@echo "... link_main_test"
+	@echo "... linked_list_string-cmd"
 	@echo "... manual_threading_test"
 	@echo "... map_test"
 	@echo "... memory_manager_test"

@@ -67,8 +67,9 @@ include alg/merge/CMakeFiles/eval.dir/compiler_depend.make
 include alg/merge/CMakeFiles/eval.dir/progress.make
 
 alg/merge/CMakeFiles/eval: alg/merge/benchmark/bm-sorted_merge_3way-cmd
+alg/merge/CMakeFiles/eval: alg/merge/bm-linked_list_string-cmd
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running merge benchmark"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge && benchmark/bm-sorted_merge_3way-cmd
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge && benchmark/bm-sorted_merge_3way-cmd bm-linked_list_string-cmd
 
 alg/merge/CMakeFiles/eval.dir/codegen:
 .PHONY : alg/merge/CMakeFiles/eval.dir/codegen
