@@ -2,86 +2,69 @@
 #include "linked_list_string.h"
 #include <cstdlib>
 #include <cstring>
-#include <iostream>
 
-#define MAX_NUMERO_DE_CARACTERES 64
-struct No {
-  //char *name;
-  char name[MAX_NUMERO_DE_CARACTERES];
-  /*
-   opcional: convencao de '\0' no final
-  */
-  No *next;
-};
-
-typedef No *Lista;
-
-// ---------------------------------------------------------------
-// mesma lista, mas com ponteiro pra char
-struct No2 {
-  char *name;
-  //char name[MAX_NUMERO_DE_CARACTERES];
-  /*
-   opcional: convencao de '\0' no final
-  */
-  No *next;
-};
-
-typedef No2 *Lista2;
-
-void 
-playground_lista()
+// Inserts
+/*
+ * A ideia é percorrer a lista até a posição devida:
+ * Se for a primeira, retornamos a nova head.
+ * Se for a última, só refazemos o link do último node, retornar a tail.
+ * Se for no meio, refazer os links, retornar a head.
+ *
+ * Posição inválida retorna nullptr.
+ *
+ * Se for ciclica, tratamos a tail remapeada no diver code.
+ */
+NoArraySingleLink
+insertToArraySingle (NoArraySingleLink *head, char data[], unsigned int pos)
 {
-  std::cout << "teste" << std::endl;
-  Lista l;
-
-  // cria um novo no
-  
-  l = (No *) malloc(sizeof(No));
-
-  // no caso da implementacao estatica
-  l->name[0] = '\0';
-  
-  // ou no caso do char * :
-  //l->name = "";
-  //l->name = 0;
-
-  std::cout << std::string(l->name) << std::endl;
-
-  std::cout << "teste" << std::endl;
-  // ou
-  printf("%s", l->name); // assume que nome contem '\0'
-  
-  strncpy(l->name, "joao", MAX_NUMERO_DE_CARACTERES);
-  
-  printf("%s", l->name); // assume que nome contem '\0'
+}
+NoPointerSingleLink
+insertToPointerSingle (NoPointerSingleLink *head, char *data, unsigned int pos)
+{
+}
+NoArrayDoubleLink
+insertToArrayDouble (NoArrayDoubleLink *head, char data[], unsigned int pos)
+{
+}
+NoPointerDoubleLink
+insertToPointerDouble (NoPointerDoubleLink *head, char *data, unsigned int pos)
+{
 }
 
-void 
-playground_lista2()
+// Deletes
+NoArraySingleLink
+deleteFromArraySingle (NoArraySingleLink *head, char data[], unsigned int pos)
 {
-  // Exercicio1: prencher com lista 2
-  std::cout << "teste" << std::endl;
-  Lista l;
+}
+NoPointerSingleLink
+deleteFromPointerSingle (NoPointerSingleLink *head, char *data,
+                         unsigned int pos)
+{
+}
+NoArrayDoubleLink
+deleteFromArrayDouble (NoArrayDoubleLink *head, char data[], unsigned int pos)
+{
+}
+NoPointerDoubleLink
+deleteFromPointerDouble (NoPointerDoubleLink *head, char *data,
+                         unsigned int pos)
+{
+}
 
-  // cria um novo no
-  
-  l = (No *) malloc(sizeof(No));
-
-  // no caso da implementacao estatica
-  l->name[0] = '\0';
-  
-  // ou no caso do char * :
-  //l->name = "";
-  //l->name = 0;
-
-  std::cout << std::string(l->name) << std::endl;
-
-  std::cout << "teste" << std::endl;
-  // ou
-  printf("%s", l->name); // assume que nome contem '\0'
-  
-  strncpy(l->name, "joao", MAX_NUMERO_DE_CARACTERES);
-  
-  printf("%s", l->name); // assume que nome contem '\0'
+// Gets
+NoArraySingleLink
+getFromArraySingle (NoArraySingleLink *head, unsigned int pos)
+{
+}
+NoPointerSingleLink
+getFromPointerSingle (NoPointerSingleLink *head, unsigned int pos)
+{
+}
+NoArrayDoubleLink
+getFromArrayDouble (NoArrayDoubleLink *head, unsigned int pos)
+{
+}
+NoPointerDoubleLink
+getFromPointerDouble (NoPointerDoubleLink *head, unsigned int pos)
+{
 }
