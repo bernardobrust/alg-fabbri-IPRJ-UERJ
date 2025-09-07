@@ -140,7 +140,6 @@ Na aula prática você tera 30 min para programar um algoritmo similar solicitad
 pelo professor.
 
 ### Tarefa 2 para sex29ago25
-**ATENCAO:** Tarefa 2 ainda sendo atualizada
 
 #### Mini-tarefa: ler sobre git
 Ler capitulo 1 e 2 do livro Pro Git https://git-scm.com (Getting Started e

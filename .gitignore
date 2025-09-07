@@ -9,8 +9,7 @@ CTestTestfile.cmake
 Makefile
 Testing/
 cmake_install.cmake
-sorted_merge_3way-cmd
-bm-sorted_merge_3way-cmd
+*-cmd
 run-tests
 run-tests*include.cmake
 run-tests*tests.cmake

@@ -1,0 +1,20 @@
+language: cpp
+os: linux
+dist: focal # Use a recent Ubuntu distribution
+
+compiler:
+  - gcc
+
+addons:
+  apt:
+    packages:
+      - cmake
+      - jq # For the run-benchmarks.sh script
+
+install:
+  - git submodule update --init --recursive # Initialize and update all submodules
+
+script:
+  - cmake .
+  - make 
+  - make test

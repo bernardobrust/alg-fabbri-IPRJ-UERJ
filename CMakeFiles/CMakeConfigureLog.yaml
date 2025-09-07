@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9YOM6z"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9YOM6z"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ujTpC4"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ujTpC4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,28 +71,27 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9YOM6z'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ujTpC4'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5a67a/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5a67a.dir/build.make CMakeFiles/cmTC_5a67a.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9YOM6z'
-        Building C object CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f1328/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f1328.dir/build.make CMakeFiles/cmTC_f1328.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ujTpC4'
+        Building C object CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.3.0-5' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 14.2.0 (Debian 14.2.0-19) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a67a.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5a67a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/cc1odl3f.s
-        GNU C17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)
-        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        gcc version 14.3.0 (Debian 14.3.0-5) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1328.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f1328.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccnr3bwC.s
+        GNU C17 (Debian 14.3.0-5) version 14.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 14.3.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
-        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"
@@ -105,35 +104,35 @@ events:
          /usr/include/x86_64-linux-gnu
          /usr/include
         End of search list.
-        Compiler executable checksum: 0051dfc1fa4e89ba97760da93f2546f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a67a.dir/'
-         as -v --64 -o CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o /tmp/cc1odl3f.s
-        GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44
+        Compiler executable checksum: 47f1d9fbf2bbbbcf2a25de321c2ec94e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1328.dir/'
+         as -v --64 -o CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o /tmp/ccnr3bwC.s
+        GNU assembler version 2.45 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.45
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_5a67a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a67a.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_f1328
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1328.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.3.0-5' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 14.2.0 (Debian 14.2.0-19) 
+        gcc version 14.3.0 (Debian 14.3.0-5) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5a67a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5a67a.'
-         /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEJZwgN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5a67a /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
-        collect2 version 14.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEJZwgN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5a67a /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
-        GNU ld (GNU Binutils for Debian) 2.44
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5a67a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5a67a.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o -o cmTC_5a67a
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9YOM6z'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1328' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f1328.'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoISQQX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f1328 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 14.3.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoISQQX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f1328 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1328' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f1328.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o -o cmTC_f1328
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ujTpC4'
         
       exitCode: 0
   -
@@ -168,28 +167,27 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9YOM6z']
+        ignore line: [Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ujTpC4']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5a67a/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_5a67a.dir/build.make CMakeFiles/cmTC_5a67a.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9YOM6z']
-        ignore line: [Building C object CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f1328/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f1328.dir/build.make CMakeFiles/cmTC_f1328.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ujTpC4']
+        ignore line: [Building C object CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.3.0-5' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a67a.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5a67a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/cc1odl3f.s]
-        ignore line: [GNU C17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)]
-        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: [gcc version 14.3.0 (Debian 14.3.0-5) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1328.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f1328.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccnr3bwC.s]
+        ignore line: [GNU C17 (Debian 14.3.0-5) version 14.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.3.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
-        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"]
@@ -202,34 +200,34 @@ events:
         ignore line: [ /usr/include/x86_64-linux-gnu]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 0051dfc1fa4e89ba97760da93f2546f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a67a.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o /tmp/cc1odl3f.s]
-        ignore line: [GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44]
+        ignore line: [Compiler executable checksum: 47f1d9fbf2bbbbcf2a25de321c2ec94e]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1328.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o /tmp/ccnr3bwC.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.45]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_5a67a]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a67a.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_f1328]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1328.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.3.0-5' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
+        ignore line: [gcc version 14.3.0 (Debian 14.3.0-5) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5a67a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5a67a.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEJZwgN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5a67a /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1328' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f1328.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoISQQX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f1328 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/14/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccEJZwgN.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccoISQQX.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -245,7 +243,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5a67a] ==> ignore
+          arg [cmTC_f1328] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
@@ -258,7 +256,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -272,8 +270,8 @@ events:
           arg [--pop-state] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
-        ignore line: [collect2 version 14.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEJZwgN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5a67a /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_5a67a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 14.3.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoISQQX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f1328 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_f1328.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -301,7 +299,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "/usr/bin/ld" "-v"
-      GNU ld (GNU Binutils for Debian) 2.44
+      GNU ld (GNU Binutils for Debian) 2.45
   -
     kind: "try_compile-v1"
     backtrace:
@@ -311,8 +309,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Psqkg"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Psqkg"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-danoQp"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-danoQp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -322,28 +320,27 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Psqkg'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-danoQp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7de2b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_7de2b.dir/build.make CMakeFiles/cmTC_7de2b.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Psqkg'
-        Building CXX object CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ba8ca/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ba8ca.dir/build.make CMakeFiles/cmTC_ba8ca.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-danoQp'
+        Building CXX object CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.3.0-5' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 14.2.0 (Debian 14.2.0-19) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7de2b.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7de2b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccJ7Nc3G.s
-        GNU C++17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)
-        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        gcc version 14.3.0 (Debian 14.3.0-5) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ba8ca.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ba8ca.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccxeRIKF.s
+        GNU C++17 (Debian 14.3.0-5) version 14.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 14.3.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
-        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/14"
         ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
@@ -360,35 +357,35 @@ events:
          /usr/include/x86_64-linux-gnu
          /usr/include
         End of search list.
-        Compiler executable checksum: a0e1d70a4b6c50c7ed1b3d36dfd3f9a4
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7de2b.dir/'
-         as -v --64 -o CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJ7Nc3G.s
-        GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44
+        Compiler executable checksum: 9ac80053b6f0a0f10adf507b527307ac
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ba8ca.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxeRIKF.s
+        GNU assembler version 2.45 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.45
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_7de2b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7de2b.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_ba8ca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba8ca.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
         OFFLOAD_TARGET_DEFAULT=1
         Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.3.0-5' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
-        gcc version 14.2.0 (Debian 14.2.0-19) 
+        gcc version 14.3.0 (Debian 14.3.0-5) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7de2b' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7de2b.'
-         /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc25jp81.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7de2b /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
-        collect2 version 14.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc25jp81.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7de2b /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
-        GNU ld (GNU Binutils for Debian) 2.44
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7de2b' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7de2b.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7de2b
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Psqkg'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba8ca' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ba8ca.'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf2o9EF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ba8ca /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 14.3.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf2o9EF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ba8ca /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba8ca' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ba8ca.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ba8ca
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-danoQp'
         
       exitCode: 0
   -
@@ -429,28 +426,27 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Psqkg']
+        ignore line: [Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-danoQp']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7de2b/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_7de2b.dir/build.make CMakeFiles/cmTC_7de2b.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Psqkg']
-        ignore line: [Building CXX object CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ba8ca/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ba8ca.dir/build.make CMakeFiles/cmTC_ba8ca.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-danoQp']
+        ignore line: [Building CXX object CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.3.0-5' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7de2b.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_7de2b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccJ7Nc3G.s]
-        ignore line: [GNU C++17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)]
-        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: [gcc version 14.3.0 (Debian 14.3.0-5) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ba8ca.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ba8ca.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccxeRIKF.s]
+        ignore line: [GNU C++17 (Debian 14.3.0-5) version 14.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.3.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
-        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/14"]
         ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
@@ -467,34 +463,34 @@ events:
         ignore line: [ /usr/include/x86_64-linux-gnu]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: a0e1d70a4b6c50c7ed1b3d36dfd3f9a4]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7de2b.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJ7Nc3G.s]
-        ignore line: [GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44]
+        ignore line: [Compiler executable checksum: 9ac80053b6f0a0f10adf507b527307ac]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ba8ca.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxeRIKF.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.45]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_7de2b]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7de2b.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_ba8ca]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba8ca.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
         ignore line: [OFFLOAD_TARGET_DEFAULT=1]
         ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.3.0-5' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
+        ignore line: [gcc version 14.3.0 (Debian 14.3.0-5) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7de2b' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_7de2b.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc25jp81.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7de2b /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ba8ca' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ba8ca.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf2o9EF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ba8ca /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/14/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc25jp81.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccf2o9EF.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -510,7 +506,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_7de2b] ==> ignore
+          arg [cmTC_ba8ca] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
@@ -523,7 +519,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -533,8 +529,8 @@ events:
           arg [-lgcc] ==> lib [gcc]
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
-        ignore line: [collect2 version 14.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/cc25jp81.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_7de2b /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_7de2b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 14.3.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccf2o9EF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ba8ca /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_ba8ca.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -562,7 +558,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
-      GNU ld (GNU Binutils for Debian) 2.44
+      GNU ld (GNU Binutils for Debian) 2.45
   -
     kind: "try_compile-v1"
     backtrace:
@@ -575,8 +571,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-GjAags"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-GjAags"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lLTlq0"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lLTlq0"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -Wextra -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -585,17 +581,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-GjAags'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lLTlq0'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1b76e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_1b76e.dir/build.make CMakeFiles/cmTC_1b76e.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-GjAags'
-        Building C object CMakeFiles/cmTC_1b76e.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wall -Wextra -pedantic  -std=gnu99 -o CMakeFiles/cmTC_1b76e.dir/src.c.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-GjAags/src.c
-        Linking C executable cmTC_1b76e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b76e.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -Wextra -pedantic  CMakeFiles/cmTC_1b76e.dir/src.c.o -o cmTC_1b76e
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-GjAags'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c82ac/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c82ac.dir/build.make CMakeFiles/cmTC_c82ac.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lLTlq0'
+        Building C object CMakeFiles/cmTC_c82ac.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wall -Wextra -pedantic  -std=gnu99 -o CMakeFiles/cmTC_c82ac.dir/src.c.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lLTlq0/src.c
+        Linking C executable cmTC_c82ac
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c82ac.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -Wextra -pedantic  CMakeFiles/cmTC_c82ac.dir/src.c.o -o cmTC_c82ac
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lLTlq0'
         
       exitCode: 0
   -
@@ -606,8 +602,8 @@ events:
     checks:
       - "Looking for shm_open in rt"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-YSVMOZ"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-YSVMOZ"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-yI58Cy"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-yI58Cy"
     cmakeVariables:
       CMAKE_C_FLAGS: " -Wall -Wextra -pedantic"
       CMAKE_C_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -617,17 +613,17 @@ events:
       variable: "HAVE_LIB_RT"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-YSVMOZ'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-yI58Cy'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_366fa/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_366fa.dir/build.make CMakeFiles/cmTC_366fa.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-YSVMOZ'
-        Building C object CMakeFiles/cmTC_366fa.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -Wextra -pedantic -DCHECK_FUNCTION_EXISTS=shm_open -std=gnu99 -o CMakeFiles/cmTC_366fa.dir/CheckFunctionExists.c.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-YSVMOZ/CheckFunctionExists.c
-        Linking C executable cmTC_366fa
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_366fa.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -Wextra -pedantic -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_366fa.dir/CheckFunctionExists.c.o -o cmTC_366fa  -lrt
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-YSVMOZ'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_944bc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_944bc.dir/build.make CMakeFiles/cmTC_944bc.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-yI58Cy'
+        Building C object CMakeFiles/cmTC_944bc.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -Wall -Wextra -pedantic -DCHECK_FUNCTION_EXISTS=shm_open -std=gnu99 -o CMakeFiles/cmTC_944bc.dir/CheckFunctionExists.c.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-yI58Cy/CheckFunctionExists.c
+        Linking C executable cmTC_944bc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_944bc.dir/link.txt --verbose=1
+        /usr/bin/cc  -Wall -Wextra -pedantic -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_944bc.dir/CheckFunctionExists.c.o -o cmTC_944bc  -lrt
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-yI58Cy'
         
       exitCode: 0
   -
@@ -641,8 +637,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WALL"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HldqqW"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HldqqW"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Cq7ZYr"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Cq7ZYr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -652,17 +648,17 @@ events:
       variable: "HAVE_CXX_FLAG_WALL"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HldqqW'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Cq7ZYr'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd535/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_dd535.dir/build.make CMakeFiles/cmTC_dd535.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HldqqW'
-        Building CXX object CMakeFiles/cmTC_dd535.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -Wextra -pedantic  -Wall -std=c++17   -Wall -o CMakeFiles/cmTC_dd535.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HldqqW/src.cxx
-        Linking CXX executable cmTC_dd535
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd535.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall CMakeFiles/cmTC_dd535.dir/src.cxx.o -o cmTC_dd535
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HldqqW'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_11457/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_11457.dir/build.make CMakeFiles/cmTC_11457.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Cq7ZYr'
+        Building CXX object CMakeFiles/cmTC_11457.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -Wextra -pedantic  -Wall -std=c++17   -Wall -o CMakeFiles/cmTC_11457.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Cq7ZYr/src.cxx
+        Linking CXX executable cmTC_11457
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11457.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall CMakeFiles/cmTC_11457.dir/src.cxx.o -o cmTC_11457
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Cq7ZYr'
         
       exitCode: 0
   -
@@ -676,8 +672,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WEXTRA"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-jIUjzI"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-jIUjzI"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lctYg7"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lctYg7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -687,17 +683,17 @@ events:
       variable: "HAVE_CXX_FLAG_WEXTRA"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-jIUjzI'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lctYg7'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f325e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f325e.dir/build.make CMakeFiles/cmTC_f325e.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-jIUjzI'
-        Building CXX object CMakeFiles/cmTC_f325e.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall -Wextra -pedantic  -Wall  -Wextra -std=c++17   -Wextra -o CMakeFiles/cmTC_f325e.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-jIUjzI/src.cxx
-        Linking CXX executable cmTC_f325e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f325e.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra CMakeFiles/cmTC_f325e.dir/src.cxx.o -o cmTC_f325e
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-jIUjzI'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c531a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c531a.dir/build.make CMakeFiles/cmTC_c531a.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lctYg7'
+        Building CXX object CMakeFiles/cmTC_c531a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall -Wextra -pedantic  -Wall  -Wextra -std=c++17   -Wextra -o CMakeFiles/cmTC_c531a.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lctYg7/src.cxx
+        Linking CXX executable cmTC_c531a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c531a.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra CMakeFiles/cmTC_c531a.dir/src.cxx.o -o cmTC_c531a
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lctYg7'
         
       exitCode: 0
   -
@@ -711,8 +707,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSHADOW"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Dgd1l5"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Dgd1l5"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ruIBOX"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ruIBOX"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -722,17 +718,17 @@ events:
       variable: "HAVE_CXX_FLAG_WSHADOW"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Dgd1l5'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ruIBOX'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06b7d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_06b7d.dir/build.make CMakeFiles/cmTC_06b7d.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Dgd1l5'
-        Building CXX object CMakeFiles/cmTC_06b7d.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow -std=c++17   -Wshadow -o CMakeFiles/cmTC_06b7d.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Dgd1l5/src.cxx
-        Linking CXX executable cmTC_06b7d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06b7d.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_06b7d.dir/src.cxx.o -o cmTC_06b7d
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-Dgd1l5'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b0289/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b0289.dir/build.make CMakeFiles/cmTC_b0289.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ruIBOX'
+        Building CXX object CMakeFiles/cmTC_b0289.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow -std=c++17   -Wshadow -o CMakeFiles/cmTC_b0289.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ruIBOX/src.cxx
+        Linking CXX executable cmTC_b0289
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0289.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_b0289.dir/src.cxx.o -o cmTC_b0289
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-ruIBOX'
         
       exitCode: 0
   -
@@ -746,8 +742,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9RLopa"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9RLopa"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-vUWXZA"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-vUWXZA"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -757,17 +753,17 @@ events:
       variable: "HAVE_CXX_FLAG_WFLOAT_EQUAL"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9RLopa'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-vUWXZA'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de99c/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_de99c.dir/build.make CMakeFiles/cmTC_de99c.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9RLopa'
-        Building CXX object CMakeFiles/cmTC_de99c.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++17   -Wfloat-equal -o CMakeFiles/cmTC_de99c.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9RLopa/src.cxx
-        Linking CXX executable cmTC_de99c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de99c.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_de99c.dir/src.cxx.o -o cmTC_de99c
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-9RLopa'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_02f73/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_02f73.dir/build.make CMakeFiles/cmTC_02f73.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-vUWXZA'
+        Building CXX object CMakeFiles/cmTC_02f73.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal -std=c++17   -Wfloat-equal -o CMakeFiles/cmTC_02f73.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-vUWXZA/src.cxx
+        Linking CXX executable cmTC_02f73
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02f73.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_02f73.dir/src.cxx.o -o cmTC_02f73
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-vUWXZA'
         
       exitCode: 0
   -
@@ -781,8 +777,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-sZai0w"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-sZai0w"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-B7R9UI"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-B7R9UI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -792,17 +788,17 @@ events:
       variable: "HAVE_CXX_FLAG_WOLD_STYLE_CAST"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-sZai0w'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-B7R9UI'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c8e44/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c8e44.dir/build.make CMakeFiles/cmTC_c8e44.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-sZai0w'
-        Building CXX object CMakeFiles/cmTC_c8e44.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++17   -Wold-style-cast -o CMakeFiles/cmTC_c8e44.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-sZai0w/src.cxx
-        Linking CXX executable cmTC_c8e44
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8e44.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_c8e44.dir/src.cxx.o -o cmTC_c8e44
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-sZai0w'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7f2f9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7f2f9.dir/build.make CMakeFiles/cmTC_7f2f9.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-B7R9UI'
+        Building CXX object CMakeFiles/cmTC_7f2f9.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -std=c++17   -Wold-style-cast -o CMakeFiles/cmTC_7f2f9.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-B7R9UI/src.cxx
+        Linking CXX executable cmTC_7f2f9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f2f9.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_7f2f9.dir/src.cxx.o -o cmTC_7f2f9
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-B7R9UI'
         
       exitCode: 0
   -
@@ -816,8 +812,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WCONVERSION"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-WlCuAg"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-WlCuAg"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-K6thX8"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-K6thX8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -827,17 +823,17 @@ events:
       variable: "HAVE_CXX_FLAG_WCONVERSION"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-WlCuAg'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-K6thX8'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f3590/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f3590.dir/build.make CMakeFiles/cmTC_f3590.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-WlCuAg'
-        Building CXX object CMakeFiles/cmTC_f3590.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WCONVERSION  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -std=c++17   -Wconversion -o CMakeFiles/cmTC_f3590.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-WlCuAg/src.cxx
-        Linking CXX executable cmTC_f3590
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3590.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion CMakeFiles/cmTC_f3590.dir/src.cxx.o -o cmTC_f3590
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-WlCuAg'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ad8f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4ad8f.dir/build.make CMakeFiles/cmTC_4ad8f.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-K6thX8'
+        Building CXX object CMakeFiles/cmTC_4ad8f.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WCONVERSION  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -std=c++17   -Wconversion -o CMakeFiles/cmTC_4ad8f.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-K6thX8/src.cxx
+        Linking CXX executable cmTC_4ad8f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ad8f.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion CMakeFiles/cmTC_4ad8f.dir/src.cxx.o -o cmTC_4ad8f
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-K6thX8'
         
       exitCode: 0
   -
@@ -851,8 +847,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WERROR"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-x8jq2K"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-x8jq2K"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-UUuEc4"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-UUuEc4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -862,17 +858,17 @@ events:
       variable: "HAVE_CXX_FLAG_WERROR"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-x8jq2K'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-UUuEc4'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1b10f/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_1b10f.dir/build.make CMakeFiles/cmTC_1b10f.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-x8jq2K'
-        Building CXX object CMakeFiles/cmTC_1b10f.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror -std=c++17   -Werror -o CMakeFiles/cmTC_1b10f.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-x8jq2K/src.cxx
-        Linking CXX executable cmTC_1b10f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b10f.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror CMakeFiles/cmTC_1b10f.dir/src.cxx.o -o cmTC_1b10f
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-x8jq2K'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3dc7a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3dc7a.dir/build.make CMakeFiles/cmTC_3dc7a.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-UUuEc4'
+        Building CXX object CMakeFiles/cmTC_3dc7a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror -std=c++17   -Werror -o CMakeFiles/cmTC_3dc7a.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-UUuEc4/src.cxx
+        Linking CXX executable cmTC_3dc7a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dc7a.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror CMakeFiles/cmTC_3dc7a.dir/src.cxx.o -o cmTC_3dc7a
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-UUuEc4'
         
       exitCode: 0
   -
@@ -886,8 +882,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-t9kzUb"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-t9kzUb"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lo14Ez"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lo14Ez"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -897,17 +893,17 @@ events:
       variable: "HAVE_CXX_FLAG_PEDANTIC"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-t9kzUb'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lo14Ez'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0127d/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_0127d.dir/build.make CMakeFiles/cmTC_0127d.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-t9kzUb'
-        Building CXX object CMakeFiles/cmTC_0127d.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic -std=c++17   -pedantic -o CMakeFiles/cmTC_0127d.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-t9kzUb/src.cxx
-        Linking CXX executable cmTC_0127d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0127d.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic CMakeFiles/cmTC_0127d.dir/src.cxx.o -o cmTC_0127d
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-t9kzUb'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_28859/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_28859.dir/build.make CMakeFiles/cmTC_28859.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lo14Ez'
+        Building CXX object CMakeFiles/cmTC_28859.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic -std=c++17   -pedantic -o CMakeFiles/cmTC_28859.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lo14Ez/src.cxx
+        Linking CXX executable cmTC_28859
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28859.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic CMakeFiles/cmTC_28859.dir/src.cxx.o -o cmTC_28859
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-lo14Ez'
         
       exitCode: 0
   -
@@ -921,8 +917,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-XkawEl"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-XkawEl"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hsL3DY"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hsL3DY"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -932,17 +928,17 @@ events:
       variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-XkawEl'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hsL3DY'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ffa81/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ffa81.dir/build.make CMakeFiles/cmTC_ffa81.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-XkawEl'
-        Building CXX object CMakeFiles/cmTC_ffa81.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors -std=c++17   -pedantic-errors -o CMakeFiles/cmTC_ffa81.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-XkawEl/src.cxx
-        Linking CXX executable cmTC_ffa81
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffa81.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors CMakeFiles/cmTC_ffa81.dir/src.cxx.o -o cmTC_ffa81
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-XkawEl'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6eeb9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6eeb9.dir/build.make CMakeFiles/cmTC_6eeb9.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hsL3DY'
+        Building CXX object CMakeFiles/cmTC_6eeb9.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors -std=c++17   -pedantic-errors -o CMakeFiles/cmTC_6eeb9.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hsL3DY/src.cxx
+        Linking CXX executable cmTC_6eeb9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eeb9.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors CMakeFiles/cmTC_6eeb9.dir/src.cxx.o -o cmTC_6eeb9
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hsL3DY'
         
       exitCode: 0
   -
@@ -956,8 +952,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-qEJa1Z"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-qEJa1Z"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-R1kFUF"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-R1kFUF"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -967,18 +963,18 @@ events:
       variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-qEJa1Z'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-R1kFUF'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_68510/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_68510.dir/build.make CMakeFiles/cmTC_68510.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-qEJa1Z'
-        Building CXX object CMakeFiles/cmTC_68510.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++17   -Wshorten-64-to-32 -o CMakeFiles/cmTC_68510.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-qEJa1Z/src.cxx
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_155a1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_155a1.dir/build.make CMakeFiles/cmTC_155a1.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-R1kFUF'
+        Building CXX object CMakeFiles/cmTC_155a1.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -std=c++17   -Wshorten-64-to-32 -o CMakeFiles/cmTC_155a1.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-R1kFUF/src.cxx
         c++: error: unrecognized command-line option '-Wshorten-64-to-32'
         c++: error: unrecognized command-line option '-Wshorten-64-to-32'
-        gmake[1]: *** [CMakeFiles/cmTC_68510.dir/build.make:81: CMakeFiles/cmTC_68510.dir/src.cxx.o] Error 1
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-qEJa1Z'
-        gmake: *** [Makefile:134: cmTC_68510/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_155a1.dir/build.make:81: CMakeFiles/cmTC_155a1.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-R1kFUF'
+        gmake: *** [Makefile:134: cmTC_155a1/fast] Error 2
         
       exitCode: 2
   -
@@ -992,8 +988,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-NgyTIE"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-NgyTIE"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-w6J5X9"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-w6J5X9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -1003,17 +999,17 @@ events:
       variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-NgyTIE'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-w6J5X9'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_56215/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_56215.dir/build.make CMakeFiles/cmTC_56215.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-NgyTIE'
-        Building CXX object CMakeFiles/cmTC_56215.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++17   -fstrict-aliasing -o CMakeFiles/cmTC_56215.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-NgyTIE/src.cxx
-        Linking CXX executable cmTC_56215
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56215.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_56215.dir/src.cxx.o -o cmTC_56215
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-NgyTIE'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7010f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7010f.dir/build.make CMakeFiles/cmTC_7010f.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-w6J5X9'
+        Building CXX object CMakeFiles/cmTC_7010f.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing -std=c++17   -fstrict-aliasing -o CMakeFiles/cmTC_7010f.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-w6J5X9/src.cxx
+        Linking CXX executable cmTC_7010f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7010f.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_7010f.dir/src.cxx.o -o cmTC_7010f
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-w6J5X9'
         
       exitCode: 0
   -
@@ -1027,8 +1023,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-IaWc0a"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-IaWc0a"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-JPNjtc"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-JPNjtc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -1038,17 +1034,17 @@ events:
       variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-IaWc0a'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-JPNjtc'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_af422/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_af422.dir/build.make CMakeFiles/cmTC_af422.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-IaWc0a'
-        Building CXX object CMakeFiles/cmTC_af422.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++17   -Wno-deprecated-declarations -o CMakeFiles/cmTC_af422.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-IaWc0a/src.cxx
-        Linking CXX executable cmTC_af422
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af422.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_af422.dir/src.cxx.o -o cmTC_af422
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-IaWc0a'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3b970/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3b970.dir/build.make CMakeFiles/cmTC_3b970.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-JPNjtc'
+        Building CXX object CMakeFiles/cmTC_3b970.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -std=c++17   -Wno-deprecated-declarations -o CMakeFiles/cmTC_3b970.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-JPNjtc/src.cxx
+        Linking CXX executable cmTC_3b970
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b970.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_3b970.dir/src.cxx.o -o cmTC_3b970
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-JPNjtc'
         
       exitCode: 0
   -
@@ -1062,8 +1058,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hZe2VI"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hZe2VI"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-icZPLL"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-icZPLL"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -1073,17 +1069,17 @@ events:
       variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hZe2VI'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-icZPLL'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c6d21/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c6d21.dir/build.make CMakeFiles/cmTC_c6d21.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hZe2VI'
-        Building CXX object CMakeFiles/cmTC_c6d21.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++17   -Wno-deprecated -o CMakeFiles/cmTC_c6d21.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hZe2VI/src.cxx
-        Linking CXX executable cmTC_c6d21
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6d21.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_c6d21.dir/src.cxx.o -o cmTC_c6d21
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hZe2VI'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_81acb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_81acb.dir/build.make CMakeFiles/cmTC_81acb.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-icZPLL'
+        Building CXX object CMakeFiles/cmTC_81acb.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -std=c++17   -Wno-deprecated -o CMakeFiles/cmTC_81acb.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-icZPLL/src.cxx
+        Linking CXX executable cmTC_81acb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81acb.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_81acb.dir/src.cxx.o -o cmTC_81acb
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-icZPLL'
         
       exitCode: 0
   -
@@ -1097,8 +1093,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hhV035"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hhV035"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-za7wbc"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-za7wbc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -1108,17 +1104,17 @@ events:
       variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hhV035'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-za7wbc'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d23e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5d23e.dir/build.make CMakeFiles/cmTC_5d23e.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hhV035'
-        Building CXX object CMakeFiles/cmTC_5d23e.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++17   -Wstrict-aliasing -o CMakeFiles/cmTC_5d23e.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hhV035/src.cxx
-        Linking CXX executable cmTC_5d23e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d23e.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_5d23e.dir/src.cxx.o -o cmTC_5d23e
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-hhV035'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3ad7a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3ad7a.dir/build.make CMakeFiles/cmTC_3ad7a.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-za7wbc'
+        Building CXX object CMakeFiles/cmTC_3ad7a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -std=c++17   -Wstrict-aliasing -o CMakeFiles/cmTC_3ad7a.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-za7wbc/src.cxx
+        Linking CXX executable cmTC_3ad7a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ad7a.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_3ad7a.dir/src.cxx.o -o cmTC_3ad7a
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-za7wbc'
         
       exitCode: 0
   -
@@ -1132,8 +1128,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HGfLGG"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HGfLGG"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0OFePb"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0OFePb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -1143,18 +1139,18 @@ events:
       variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HGfLGG'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0OFePb'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_50a0b/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_50a0b.dir/build.make CMakeFiles/cmTC_50a0b.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HGfLGG'
-        Building CXX object CMakeFiles/cmTC_50a0b.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++17   -Wthread-safety -o CMakeFiles/cmTC_50a0b.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HGfLGG/src.cxx
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_17055/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_17055.dir/build.make CMakeFiles/cmTC_17055.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0OFePb'
+        Building CXX object CMakeFiles/cmTC_17055.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -std=c++17   -Wthread-safety -o CMakeFiles/cmTC_17055.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0OFePb/src.cxx
         c++: error: unrecognized command-line option '-Wthread-safety'
         c++: error: unrecognized command-line option '-Wthread-safety'
-        gmake[1]: *** [CMakeFiles/cmTC_50a0b.dir/build.make:81: CMakeFiles/cmTC_50a0b.dir/src.cxx.o] Error 1
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-HGfLGG'
-        gmake: *** [Makefile:134: cmTC_50a0b/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_17055.dir/build.make:81: CMakeFiles/cmTC_17055.dir/src.cxx.o] Error 1
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0OFePb'
+        gmake: *** [Makefile:134: cmTC_17055/fast] Error 2
         
       exitCode: 2
   -
@@ -1168,8 +1164,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_COVERAGE"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0XKqzo"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0XKqzo"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-kGte70"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-kGte70"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -1179,17 +1175,17 @@ events:
       variable: "HAVE_CXX_FLAG_COVERAGE"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0XKqzo'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-kGte70'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_16346/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_16346.dir/build.make CMakeFiles/cmTC_16346.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0XKqzo'
-        Building CXX object CMakeFiles/cmTC_16346.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++17   --coverage -o CMakeFiles/cmTC_16346.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0XKqzo/src.cxx
-        Linking CXX executable cmTC_16346
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16346.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_16346.dir/src.cxx.o -o cmTC_16346
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-0XKqzo'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bb52d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bb52d.dir/build.make CMakeFiles/cmTC_bb52d.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-kGte70'
+        Building CXX object CMakeFiles/cmTC_bb52d.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -std=c++17   --coverage -o CMakeFiles/cmTC_bb52d.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-kGte70/src.cxx
+        Linking CXX executable cmTC_bb52d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb52d.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_bb52d.dir/src.cxx.o -o cmTC_bb52d
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-kGte70'
         
       exitCode: 0
   -
@@ -1211,14 +1207,14 @@ events:
       stdout: |
         Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46dc8/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_46dc8.dir/build.make CMakeFiles/cmTC_46dc8.dir/build
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_85528/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_85528.dir/build.make CMakeFiles/cmTC_85528.dir/build
         gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_46dc8.dir/std_regex.cpp.o
-        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_46dc8.dir/std_regex.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/std_regex.cpp
-        Linking CXX executable cmTC_46dc8
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46dc8.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_46dc8.dir/std_regex.cpp.o -o cmTC_46dc8
+        Building CXX object CMakeFiles/cmTC_85528.dir/std_regex.cpp.o
+        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_85528.dir/std_regex.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/std_regex.cpp
+        Linking CXX executable cmTC_85528
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85528.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_85528.dir/std_regex.cpp.o -o cmTC_85528
         gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
         
       exitCode: 0
@@ -1246,18 +1242,18 @@ events:
       stdout: |
         Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e5b96/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e5b96.dir/build.make CMakeFiles/cmTC_e5b96.dir/build
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_31074/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_31074.dir/build.make CMakeFiles/cmTC_31074.dir/build
         gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_e5b96.dir/gnu_posix_regex.cpp.o
-        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_e5b96.dir/gnu_posix_regex.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/gnu_posix_regex.cpp
+        Building CXX object CMakeFiles/cmTC_31074.dir/gnu_posix_regex.cpp.o
+        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_31074.dir/gnu_posix_regex.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/gnu_posix_regex.cpp
         /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/gnu_posix_regex.cpp:1:10: fatal error: gnuregex.h: No such file or directory
             1 | #include <gnuregex.h>
               |          ^~~~~~~~~~~~
         compilation terminated.
-        gmake[1]: *** [CMakeFiles/cmTC_e5b96.dir/build.make:81: CMakeFiles/cmTC_e5b96.dir/gnu_posix_regex.cpp.o] Error 1
+        gmake[1]: *** [CMakeFiles/cmTC_31074.dir/build.make:81: CMakeFiles/cmTC_31074.dir/gnu_posix_regex.cpp.o] Error 1
         gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
-        gmake: *** [Makefile:134: cmTC_e5b96/fast] Error 2
+        gmake: *** [Makefile:134: cmTC_31074/fast] Error 2
         
       exitCode: 2
     runResult:
@@ -1282,14 +1278,14 @@ events:
       stdout: |
         Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8d9a2/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8d9a2.dir/build.make CMakeFiles/cmTC_8d9a2.dir/build
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ba74a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ba74a.dir/build.make CMakeFiles/cmTC_ba74a.dir/build
         gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_8d9a2.dir/posix_regex.cpp.o
-        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_8d9a2.dir/posix_regex.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/posix_regex.cpp
-        Linking CXX executable cmTC_8d9a2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d9a2.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_8d9a2.dir/posix_regex.cpp.o -o cmTC_8d9a2
+        Building CXX object CMakeFiles/cmTC_ba74a.dir/posix_regex.cpp.o
+        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_ba74a.dir/posix_regex.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/posix_regex.cpp
+        Linking CXX executable cmTC_ba74a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba74a.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_ba74a.dir/posix_regex.cpp.o -o cmTC_ba74a
         gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
         
       exitCode: 0
@@ -1317,14 +1313,14 @@ events:
       stdout: |
         Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_775be/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_775be.dir/build.make CMakeFiles/cmTC_775be.dir/build
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24312/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_24312.dir/build.make CMakeFiles/cmTC_24312.dir/build
         gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_775be.dir/steady_clock.cpp.o
-        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_775be.dir/steady_clock.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/steady_clock.cpp
-        Linking CXX executable cmTC_775be
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_775be.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_775be.dir/steady_clock.cpp.o -o cmTC_775be
+        Building CXX object CMakeFiles/cmTC_24312.dir/steady_clock.cpp.o
+        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_24312.dir/steady_clock.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/steady_clock.cpp
+        Linking CXX executable cmTC_24312
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24312.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_24312.dir/steady_clock.cpp.o -o cmTC_24312
         gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
         
       exitCode: 0
@@ -1352,14 +1348,14 @@ events:
       stdout: |
         Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3a0b6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_3a0b6.dir/build.make CMakeFiles/cmTC_3a0b6.dir/build
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_98bf3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_98bf3.dir/build.make CMakeFiles/cmTC_98bf3.dir/build
         gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
-        Building CXX object CMakeFiles/cmTC_3a0b6.dir/pthread_affinity.cpp.o
-        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_3a0b6.dir/pthread_affinity.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/pthread_affinity.cpp
-        Linking CXX executable cmTC_3a0b6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a0b6.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_3a0b6.dir/pthread_affinity.cpp.o -o cmTC_3a0b6
+        Building CXX object CMakeFiles/cmTC_98bf3.dir/pthread_affinity.cpp.o
+        /usr/bin/c++   -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -std=c++17 -o CMakeFiles/cmTC_98bf3.dir/pthread_affinity.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/benchmark/cmake/pthread_affinity.cpp
+        Linking CXX executable cmTC_98bf3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98bf3.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  CMakeFiles/cmTC_98bf3.dir/pthread_affinity.cpp.o -o cmTC_98bf3
         gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeTmp'
         
       exitCode: 0
@@ -1379,8 +1375,8 @@ events:
     checks:
       - "Performing Test HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-q2juMG"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-q2juMG"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Cg7Bi"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Cg7Bi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -1390,17 +1386,17 @@ events:
       variable: "HAVE_CXX_FLAG_WNO_UNUSED_VARIABLE"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-q2juMG'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Cg7Bi'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf814/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_bf814.dir/build.make CMakeFiles/cmTC_bf814.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-q2juMG'
-        Building CXX object CMakeFiles/cmTC_bf814.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_UNUSED_VARIABLE  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable -std=c++17   -Wno-unused-variable -o CMakeFiles/cmTC_bf814.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-q2juMG/src.cxx
-        Linking CXX executable cmTC_bf814
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf814.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable CMakeFiles/cmTC_bf814.dir/src.cxx.o -o cmTC_bf814
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-q2juMG'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_af5c1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_af5c1.dir/build.make CMakeFiles/cmTC_af5c1.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Cg7Bi'
+        Building CXX object CMakeFiles/cmTC_af5c1.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_UNUSED_VARIABLE  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable -std=c++17   -Wno-unused-variable -o CMakeFiles/cmTC_af5c1.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Cg7Bi/src.cxx
+        Linking CXX executable cmTC_af5c1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af5c1.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable CMakeFiles/cmTC_af5c1.dir/src.cxx.o -o cmTC_af5c1
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-1Cg7Bi'
         
       exitCode: 0
   -
@@ -1413,8 +1409,8 @@ events:
     checks:
       - "Performing Test BENCHMARK_HAS_O3_FLAG"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-V8PSGi"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-V8PSGi"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-KgqqNr"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-KgqqNr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -1424,17 +1420,17 @@ events:
       variable: "BENCHMARK_HAS_O3_FLAG"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-V8PSGi'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-KgqqNr'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75b05/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_75b05.dir/build.make CMakeFiles/cmTC_75b05.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-V8PSGi'
-        Building CXX object CMakeFiles/cmTC_75b05.dir/src.cxx.o
-        /usr/bin/c++ -DBENCHMARK_HAS_O3_FLAG  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  -std=c++17   -O3 -o CMakeFiles/cmTC_75b05.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-V8PSGi/src.cxx
-        Linking CXX executable cmTC_75b05
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75b05.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  CMakeFiles/cmTC_75b05.dir/src.cxx.o -o cmTC_75b05
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-V8PSGi'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2e968/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2e968.dir/build.make CMakeFiles/cmTC_2e968.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-KgqqNr'
+        Building CXX object CMakeFiles/cmTC_2e968.dir/src.cxx.o
+        /usr/bin/c++ -DBENCHMARK_HAS_O3_FLAG  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  -std=c++17   -O3 -o CMakeFiles/cmTC_2e968.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-KgqqNr/src.cxx
+        Linking CXX executable cmTC_2e968
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e968.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  CMakeFiles/cmTC_2e968.dir/src.cxx.o -o cmTC_2e968
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-KgqqNr'
         
       exitCode: 0
   -
@@ -1447,8 +1443,8 @@ events:
     checks:
       - "Performing Test BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
     directories:
-      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-8kiJM2"
-      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-8kiJM2"
+      source: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-RMPZWR"
+      binary: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-RMPZWR"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable"
       CMAKE_CXX_FLAGS_DEBUG: "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer"
@@ -1458,17 +1454,17 @@ events:
       variable: "BENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG"
       cached: true
       stdout: |
-        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-8kiJM2'
+        Change Dir: '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-RMPZWR'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dd127/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_dd127.dir/build.make CMakeFiles/cmTC_dd127.dir/build
-        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-8kiJM2'
-        Building CXX object CMakeFiles/cmTC_dd127.dir/src.cxx.o
-        /usr/bin/c++ -DBENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  -std=c++17   -Werror=deprecated-declarations -o CMakeFiles/cmTC_dd127.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-8kiJM2/src.cxx
-        Linking CXX executable cmTC_dd127
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd127.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  CMakeFiles/cmTC_dd127.dir/src.cxx.o -o cmTC_dd127
-        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-8kiJM2'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5eca6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5eca6.dir/build.make CMakeFiles/cmTC_5eca6.dir/build
+        gmake[1]: Entering directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-RMPZWR'
+        Building CXX object CMakeFiles/cmTC_5eca6.dir/src.cxx.o
+        /usr/bin/c++ -DBENCHMARK_HAS_DEPRECATED_DECLARATIONS_FLAG  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  -std=c++17   -Werror=deprecated-declarations -o CMakeFiles/cmTC_5eca6.dir/src.cxx.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-RMPZWR/src.cxx
+        Linking CXX executable cmTC_5eca6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eca6.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wall -Wextra -pedantic  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wno-unused-variable  CMakeFiles/cmTC_5eca6.dir/src.cxx.o -o cmTC_5eca6
+        gmake[1]: Leaving directory '/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles/CMakeScratch/TryCompile-RMPZWR'
         
       exitCode: 0
 ...

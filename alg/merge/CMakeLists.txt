@@ -1,17 +1,16 @@
-add_library(libmerge 
+add_library(merge 
   sorted_merge_3way.cpp
   linked_list_string.cpp
 )
 # export public header path for other components
-target_include_directories(libmerge PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(merge PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 add_subdirectory(cmd)
-add_subdirectory(tests)
-add_subdirectory(benchmark)
 
-# Custom target to run benchmarks
-add_custom_target(eval
-  COMMAND bm-sorted_merge_3way-cmd bm-linked_list_string-cmd
-  DEPENDS bm-sorted_merge_3way-cmd bm-linked_list_string-cmd
-  COMMENT "Running merge benchmark"
-)
+if (alg_BUILD_TESTS)
+add_subdirectory(tests)
+endif(alg_BUILD_TESTS)
+
+if (alg_BUILD_BENCHMARKS)
+add_subdirectory(benchmark)
+endif(alg_BUILD_BENCHMARKS)

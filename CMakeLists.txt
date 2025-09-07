@@ -11,9 +11,48 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -pedantic")
 set(CMAKE_CXX_FLAGS_DEBUG "-g -ggdb3 -fsanitize=address -fno-omit-frame-pointer")
 
-add_subdirectory(third_party)
+# ------------------------------------------------------------------------------
+# Benchmark and tests
+#
+option(alg_BUILD_TESTS "Build alg tests" ON)
+option(alg_BUILD_THIRD_PARTY "Build third party" ON)
+option(alg_BUILD_BENCHMARKS "Build benchmarks" ON)
 
-enable_testing()
+if (alg_BUILD_THIRD_PARTY)
+  add_subdirectory(third_party)
+else(alg_BUILD_THIRD_PARTY)
+  if (alg_BUILD_TESTS)
+    find_package(GTest REQUIRED)
+    include(GoogleTest)
+  endif(alg_BUILD_TESTS)
+  if (alg_BUILD_BENCHMARKS)
+    find_package(benchmark REQUIRED)
+  endif(alg_BUILD_BENCHMARKS)
+endif(alg_BUILD_THIRD_PARTY)
 
+if (alg_BUILD_TESTS)
+  enable_testing()
+endif (alg_BUILD_TESTS)
+  
+# ------------------------------------------------------------------------------
+# Add the project's source code.
+#
 add_subdirectory(alg)
 
+# ------------------------------------------------------------------------------
+# Add a 'eval' target to run all bencchmarks
+#
+get_property(benchmark_targets GLOBAL PROPERTY BENCHMARK_TARGETS)
+if(benchmark_targets)
+    set(run_commands)
+    foreach(target ${benchmark_targets})
+        list(APPEND run_commands COMMAND $<TARGET_FILE:${target}>)
+    endforeach()
+
+    add_custom_target(eval
+        ${run_commands}
+        COMMENT "Running all benchmarks"
+        VERBATIM
+    )
+    add_dependencies(eval ${benchmark_targets})
+endif()
