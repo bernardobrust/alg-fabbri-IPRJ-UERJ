@@ -2,12 +2,12 @@
 #ifndef LINKED_LIST_STRING_H
 #define LINKED_LIST_STRING_H
 
-#define MAX_NUMERO_DE_CARACTERES 64
+#define MAX_SZA 64
 
 // Singles, funciona pra circular tb
 struct NoArraySingleLink
 {
-  char name[MAX_NUMERO_DE_CARACTERES];
+  char name[MAX_SZA];
 
   NoArraySingleLink *next;
 };
@@ -21,7 +21,7 @@ struct NoPointerSingleLink
 // Doubles
 struct NoArrayDoubleLink
 {
-  char name[MAX_NUMERO_DE_CARACTERES];
+  char name[MAX_SZA];
 
   NoArrayDoubleLink *next;
   NoArrayDoubleLink *prev;
@@ -35,33 +35,29 @@ struct NoPointerDoubleLink
 };
 
 // Inserts
-NoArraySingleLink insertToArraySingle (NoArraySingleLink *head, char data[],
-                                       unsigned int pos);
-NoPointerSingleLink insertToPointerSingle (NoArraySingleLink *head, char *data,
-                                           unsigned int pos);
-NoArrayDoubleLink insertToArrayDouble (NoArraySingleLink *head, char data[],
-                                       unsigned int pos);
-NoPointerDoubleLink insertToPointerDouble (NoArraySingleLink *head, char *data,
-                                           unsigned int pos);
+NoArraySingleLink *insertToArraySingle (NoArraySingleLink *head, char data[],
+                                        int pos);
+NoPointerSingleLink *insertToPointerSingle (NoPointerSingleLink *head,
+                                            char *data, int pos);
+NoArrayDoubleLink *insertToArrayDouble (NoArrayDoubleLink *head, char data[],
+                                        int pos);
+NoPointerDoubleLink *insertToPointerDouble (NoPointerDoubleLink *head,
+                                            char *data, int pos);
 
 // Deletes
-NoArraySingleLink deleteFromArraySingle (NoArraySingleLink *head, char data[],
-                                         unsigned int pos);
-NoPointerSingleLink deleteFromPointerSingle (NoArraySingleLink *head,
-                                             char *data, unsigned int pos);
-NoArrayDoubleLink deleteFromArrayDouble (NoArraySingleLink *head, char data[],
-                                         unsigned int pos);
-NoPointerDoubleLink deleteFromPointerDouble (NoArraySingleLink *head,
-                                             char *data, unsigned int pos);
+NoArraySingleLink *deleteFromArraySingle (NoArraySingleLink *head, char data[],
+                                          int pos);
+NoPointerSingleLink *deleteFromPointerSingle (NoPointerSingleLink *head,
+                                              char *data, int pos);
+NoArrayDoubleLink *deleteFromArrayDouble (NoArrayDoubleLink *head, char data[],
+                                          int pos);
+NoPointerDoubleLink *deleteFromPointerDouble (NoPointerDoubleLink *head,
+                                              char *data, int pos);
 
 // Gets
-NoArraySingleLink getFromArraySingle (NoArraySingleLink *head,
-                                      unsigned int pos);
-NoPointerSingleLink getFromPointerSingle (NoArraySingleLink *head,
-                                          unsigned int pos);
-NoArrayDoubleLink getFromArrayDouble (NoArraySingleLink *head,
-                                      unsigned int pos);
-NoPointerDoubleLink getFromPointerDouble (NoArraySingleLink *head,
-                                          unsigned int pos);
+NoArraySingleLink *getFromArraySingle (NoArraySingleLink *head, int pos);
+NoPointerSingleLink *getFromPointerSingle (NoPointerSingleLink *head, int pos);
+NoArrayDoubleLink *getFromArrayDouble (NoArrayDoubleLink *head, int pos);
+NoPointerDoubleLink *getFromPointerDouble (NoPointerDoubleLink *head, int pos);
 
 #endif /* LINKED_LIST_STRING_H */
