@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757261657712,
+  "lastUpdate": 1757275847326,
   "repoUrl": "https://github.com/bernardobrust/alg-fabbri-IPRJ-UERJ",
   "entries": {
     "C++ Benchmark Results": [
@@ -360,6 +360,96 @@ window.BENCHMARK_DATA = {
             "value": 58145722.41666838,
             "unit": "ns/iter",
             "extra": "iterations: 12\ncpu: 58142826.75000001 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bernardo.toledo.pereira@gmail.com",
+            "name": "Bernardo Brust",
+            "username": "bernardobrust"
+          },
+          "committer": {
+            "email": "bernardo.toledo.pereira@gmail.com",
+            "name": "Bernardo Brust",
+            "username": "bernardobrust"
+          },
+          "distinct": true,
+          "id": "d2c2ed273b7c6c3bdecc6543a7665e9f56cc912c",
+          "message": "I HATE char* and char[] OMG",
+          "timestamp": "2025-09-07T17:08:53-03:00",
+          "tree_id": "470350b3cf2e9e0851047a8561b0c510ef5380ee",
+          "url": "https://github.com/bernardobrust/alg-fabbri-IPRJ-UERJ/commit/d2c2ed273b7c6c3bdecc6543a7665e9f56cc912c"
+        },
+        "date": 1757275846859,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/0",
+            "value": 20.270192959773755,
+            "unit": "ns/iter",
+            "extra": "iterations: 34519630\ncpu: 20.26971381211212 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1",
+            "value": 85.47603245879874,
+            "unit": "ns/iter",
+            "extra": "iterations: 8208560\ncpu: 85.44815278197396 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/2",
+            "value": 149.9675887834524,
+            "unit": "ns/iter",
+            "extra": "iterations: 4668353\ncpu: 149.91378479733646 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10",
+            "value": 664.787440250625,
+            "unit": "ns/iter",
+            "extra": "iterations: 1053986\ncpu: 664.6117908587019 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/50",
+            "value": 3243.715552429174,
+            "unit": "ns/iter",
+            "extra": "iterations: 216082\ncpu: 3243.5225238566827 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100",
+            "value": 6473.053559113456,
+            "unit": "ns/iter",
+            "extra": "iterations: 107302\ncpu: 6473.010074369531 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/500",
+            "value": 34725.4713429435,
+            "unit": "ns/iter",
+            "extra": "iterations: 20187\ncpu: 34723.4250260068 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000",
+            "value": 75731.24270799712,
+            "unit": "ns/iter",
+            "extra": "iterations: 9291\ncpu: 75726.71197933484 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10000",
+            "value": 875344.2299999925,
+            "unit": "ns/iter",
+            "extra": "iterations: 800\ncpu: 875277.6262500006 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100000",
+            "value": 8256421.611764776,
+            "unit": "ns/iter",
+            "extra": "iterations: 85\ncpu: 8256301.741176465 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000000",
+            "value": 57986782.25000013,
+            "unit": "ns/iter",
+            "extra": "iterations: 12\ncpu: 57983481.08333328 ns\nthreads: 1"
           }
         ]
       }
