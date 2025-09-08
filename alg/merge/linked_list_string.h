@@ -45,19 +45,17 @@ NoPointerDoubleLink *insertToPointerDouble (NoPointerDoubleLink *head,
                                             char *data, int pos);
 
 // Deletes
-NoArraySingleLink *deleteFromArraySingle (NoArraySingleLink *head, char data[],
-                                          int pos);
+NoArraySingleLink *deleteFromArraySingle (NoArraySingleLink *head, int pos);
 NoPointerSingleLink *deleteFromPointerSingle (NoPointerSingleLink *head,
-                                              char *data, int pos);
-NoArrayDoubleLink *deleteFromArrayDouble (NoArrayDoubleLink *head, char data[],
-                                          int pos);
+                                              int pos);
+NoArrayDoubleLink *deleteFromArrayDouble (NoArrayDoubleLink *head, int pos);
 NoPointerDoubleLink *deleteFromPointerDouble (NoPointerDoubleLink *head,
-                                              char *data, int pos);
+                                              int pos);
 
 // Gets
-NoArraySingleLink *getFromArraySingle (NoArraySingleLink *head, int pos);
-NoPointerSingleLink *getFromPointerSingle (NoPointerSingleLink *head, int pos);
-NoArrayDoubleLink *getFromArrayDouble (NoArrayDoubleLink *head, int pos);
-NoPointerDoubleLink *getFromPointerDouble (NoPointerDoubleLink *head, int pos);
+void getFromArraySingle (NoArraySingleLink *head, int pos);
+void getFromPointerSingle (NoPointerSingleLink *head, int pos);
+void getFromArrayDouble (NoArrayDoubleLink *head, int pos);
+void getFromPointerDouble (NoPointerDoubleLink *head, int pos);
 
 #endif /* LINKED_LIST_STRING_H */

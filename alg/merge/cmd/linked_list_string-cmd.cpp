@@ -1,7 +1,6 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
-#include <iomanip>
 #include <iostream>
 
 #include "linked_list_string.h"
@@ -9,77 +8,30 @@
 void
 handle_single (int operation, int type)
 {
-  NoPointerSingleLink *head_p
-      = (NoPointerSingleLink *)malloc (sizeof (NoPointerSingleLink));
-  NoArraySingleLink *head_a
-      = (NoArraySingleLink *)malloc (sizeof (NoArraySingleLink));
-  char option = 'N';
-  while (option == 'N')
+  NoPointerSingleLink *head_p = nullptr;
+  NoArraySingleLink *head_a = nullptr;
+  char option = 'C';
+  while (option != 'Q')
     {
       int pos{ 0 };
-      std::cout << "\nDigite uma posição (0 é a primeira, 1 a segunda,..., -1 "
-                   "para a última): ";
+      std::cout << "Digite uma posição (0 é a primeira, 1 a segunda,...): ";
       std::cin >> pos;
-
-      if (pos < -1)
-        {
-          std::cerr << "Posição inválida!";
-          exit (1);
-        }
 
       if (operation == 1)
         {
           // Insert
+          char data[MAX_SZA];
+          std::cout << "Digite o valor a ser inserido: ";
+          std::cin >> data;
           if (type == 1)
             {
               // Pointer
-              char *data{};
-              std::cout << "Whats the data to be inserted?\nData:";
-              std::cin >> data;
-
-              if (pos == 0)
-                {
-                  head_p = insertToPointerSingle (head_p, data, 0);
-                }
-              else if (pos == -1)
-                {
-                  insertToPointerSingle (head_p, data, 1);
-                }
-              else
-                {
-                  NoPointerSingleLink *ret
-                      = insertToPointerSingle (head_p, data, pos);
-                  if (ret == nullptr)
-                    {
-                      std::cerr << "\nPosição Inválida";
-                      exit (1);
-                    }
-                }
+              head_p = insertToPointerSingle (head_p, data, pos);
             }
           else
             {
               // Array
-              char data[MAX_SZA];
-              std::cout << "Whats the data to be inserted?\nData:";
-              std::cin >> std::setw (sizeof (data)) >> data;
-              if (pos == 0)
-                {
-                  head_a = insertToArraySingle (head_a, data, 0);
-                }
-              else if (pos == -1)
-                {
-                  insertToArraySingle (head_a, data, 1);
-                }
-              else
-                {
-                  NoArraySingleLink *ret
-                      = insertToArraySingle (head_a, data, pos);
-                  if (ret == nullptr)
-                    {
-                      std::cerr << "\nPosição Inválida";
-                      exit (1);
-                    }
-                }
+              head_a = insertToArraySingle (head_a, data, pos);
             }
         }
       else
@@ -88,45 +40,137 @@ handle_single (int operation, int type)
           if (type == 1)
             {
               // Pointer
+              head_p = deleteFromPointerSingle (head_p, pos);
             }
           else
             {
               // Array
+              head_a = deleteFromArraySingle (head_a, pos);
             }
         }
 
-      std::cout << "\nOperação executada!\n";
-      std::cout << "Deseja sair?\nOpção (digite 'Q' para sair, 'N' para "
-                   "continuar): ";
+      std::cout << "Operação executada!\n";
+      std::cout << "Lista atual:\n";
+      if (type == 1)
+        {
+          NoPointerSingleLink *curr = head_p;
+          while (curr)
+            {
+              std::cout << curr->name << " -> ";
+              curr = curr->next;
+            }
+        }
+      else
+        {
+          NoArraySingleLink *curr = head_a;
+          while (curr)
+            {
+              std::cout << curr->name << " -> ";
+              curr = curr->next;
+            }
+        }
+      std::cout << "nullptr";
+
+      std::cout << "\nDeseja sair?Opção (digite 'Q' para sair, 'C' para "
+                   "continuar com essa operação, 'M' para mudar): ";
       std::cin >> option;
+
+      if (option == 'M')
+        {
+          std::cout
+              << "Selecione a operação : (1)Inserir (2) Deletar Escolha: ";
+          std::cin >> operation;
+
+          if (operation != 1 and operation != 2)
+            {
+              std::cerr << "Opção inválida!";
+              exit (1);
+            }
+        }
     }
 }
 
 void
 handle_double (int operation, int type)
 {
-  if (operation == 1)
+  NoPointerDoubleLink *head_p = nullptr;
+  NoArrayDoubleLink *head_a = nullptr;
+  char option = 'C';
+  while (option != 'Q')
     {
-      // Insert
-      if (type == 1)
+      int pos{ 0 };
+      std::cout << "Digite uma posição (0 é a primeira, 1 a segunda, ...): ";
+      std::cin >> pos;
+
+      if (operation == 1)
         {
-          // Pointer
+          // Insert
+          char data[MAX_SZA];
+          std::cout << "Digite o valor a ser inserido: ";
+          std::cin >> data;
+          if (type == 1)
+            {
+              // Pointer
+              head_p = insertToPointerDouble (head_p, data, pos);
+            }
+          else
+            {
+              // Array
+              head_a = insertToArrayDouble (head_a, data, pos);
+            }
         }
       else
         {
-          // Array
+          // Delete
+          if (type == 1)
+            {
+              // Pointer
+              head_p = deleteFromPointerDouble (head_p, pos);
+            }
+          else
+            {
+              // Array
+              head_a = deleteFromArrayDouble (head_a, pos);
+            }
         }
-    }
-  else
-    {
-      // Delete
+
+      std::cout << "Operação executada!\n";
+      std::cout << "Lista atual:\nnullptr <-> ";
       if (type == 1)
         {
-          // Pointer
+          NoPointerDoubleLink *curr = head_p;
+          while (curr)
+            {
+              std::cout << curr->name << " <-> ";
+              curr = curr->next;
+            }
         }
       else
         {
-          // Array
+          NoArrayDoubleLink *curr = head_a;
+          while (curr)
+            {
+              std::cout << curr->name << " <-> ";
+              curr = curr->next;
+            }
+        }
+      std::cout << "nullptr";
+
+      std::cout << "Deseja sair?Opção (digite 'Q' para sair, 'C' para "
+                   "continuar com essa operação, 'M' para mudar): ";
+      std::cin >> option;
+
+      if (option == 'M')
+        {
+          std::cout
+              << "Selecione a operação : (1)Inserir (2) Deletar Escolha: ";
+          std::cin >> operation;
+
+          if (operation != 1 and operation != 2)
+            {
+              std::cerr << "Opção inválida!";
+              exit (1);
+            }
         }
     }
 }
@@ -134,28 +178,129 @@ handle_double (int operation, int type)
 void
 handle_cyclic (int operation, int type)
 {
-  if (operation == 1)
+  NoPointerSingleLink *head_p = nullptr;
+  NoArraySingleLink *head_a = nullptr;
+  char option = 'C';
+  while (option != 'Q')
     {
-      // Insert
+      int pos{ 0 };
+      std::cout << "Digite uma posição (0 é a primeira, 1 a segunda, ...): ";
+      std::cin >> pos;
+
+      // Break the cycle for the operation
       if (type == 1)
         {
-          // Pointer
+          if (head_p)
+            {
+              NoPointerSingleLink *tail = head_p;
+              while (tail->next && tail->next != head_p)
+                {
+                  tail = tail->next;
+                }
+              if (tail)
+                tail->next = nullptr;
+            }
         }
       else
         {
-          // Array
+          if (head_a)
+            {
+              NoArraySingleLink *tail = head_a;
+              while (tail->next && tail->next != head_a)
+                {
+                  tail = tail->next;
+                }
+              if (tail)
+                tail->next = nullptr;
+            }
         }
-    }
-  else
-    {
-      // Delete
-      if (type == 1)
+
+      if (operation == 1)
         {
-          // Pointer
+          // Insert
+          char data[MAX_SZA];
+          std::cout << "Digite o valor a ser inserido: ";
+          std::cin >> data;
+          if (type == 1)
+            {
+              head_p = insertToPointerSingle (head_p, data, pos);
+            }
+          else
+            {
+              head_a = insertToArraySingle (head_a, data, pos);
+            }
         }
       else
         {
-          // Array
+          // Delete
+          if (type == 1)
+            {
+              head_p = deleteFromPointerSingle (head_p, pos);
+            }
+          else
+            {
+              head_a = deleteFromArraySingle (head_a, pos);
+            }
+        }
+
+      std::cout << "Operação executada !";
+      // Print and re-establish cycle
+      if (type == 1)
+        {
+          if (!head_p)
+            {
+              std::cout << "Lista: (vazia)";
+            }
+          else
+            {
+              std::cout << "Lista: ";
+              NoPointerSingleLink *tail = head_p;
+              while (tail->next)
+                {
+                  std::cout << tail->name << " -> ";
+                  tail = tail->next;
+                }
+              std::cout << tail->name << " -> ";
+              tail->next = head_p; // Cycle
+              std::cout << head_p->name << " (head)";
+            }
+        }
+      else
+        {
+          if (!head_a)
+            {
+              std::cout << "Lista: (vazia)";
+            }
+          else
+            {
+              std::cout << "Lista: ";
+              NoArraySingleLink *tail = head_a;
+              while (tail->next)
+                {
+                  std::cout << tail->name << " -> ";
+                  tail = tail->next;
+                }
+              std::cout << tail->name << " -> ";
+              tail->next = head_a; // Cycle
+              std::cout << head_a->name << " (head)";
+            }
+        }
+
+      std::cout << "Deseja sair? Opção (digite 'Q' para sair, 'C' para "
+                   "continuar com essa operação, 'M' para mudar): ";
+      std::cin >> option;
+
+      if (option == 'M')
+        {
+          std::cout
+              << "Selecione a operação : (1)Inserir (2) Deletar Escolha: ";
+          std::cin >> operation;
+
+          if (operation != 1 and operation != 2)
+            {
+              std::cerr << "Opção inválida!";
+              exit (1);
+            }
         }
     }
 }
