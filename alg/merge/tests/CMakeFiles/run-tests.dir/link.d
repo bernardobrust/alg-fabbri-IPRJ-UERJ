@@ -3,7 +3,8 @@ run-tests: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o \
-  ../liblibmerge.a \
+  CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o \
+  ../libmerge.a \
   ../../../lib/libgtest_main.a \
   ../../../lib/libgtest.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
@@ -42,7 +43,9 @@ run-tests: \
 
 CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o:
 
-../liblibmerge.a:
+CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o:
+
+../libmerge.a:
 
 ../../../lib/libgtest_main.a:
 

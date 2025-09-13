@@ -96,7 +96,7 @@ bm__sorted_merge_3way__cmd_EXTERNAL_OBJECTS =
 alg/merge/benchmark/bm-sorted_merge_3way-cmd: alg/merge/benchmark/CMakeFiles/bm-sorted_merge_3way-cmd.dir/bm_sorted_merge_3way.cpp.o
 alg/merge/benchmark/bm-sorted_merge_3way-cmd: alg/merge/benchmark/CMakeFiles/bm-sorted_merge_3way-cmd.dir/build.make
 alg/merge/benchmark/bm-sorted_merge_3way-cmd: alg/merge/benchmark/CMakeFiles/bm-sorted_merge_3way-cmd.dir/compiler_depend.ts
-alg/merge/benchmark/bm-sorted_merge_3way-cmd: alg/merge/liblibmerge.a
+alg/merge/benchmark/bm-sorted_merge_3way-cmd: alg/merge/libmerge.a
 alg/merge/benchmark/bm-sorted_merge_3way-cmd: third_party/benchmark/src/libbenchmark.a
 alg/merge/benchmark/bm-sorted_merge_3way-cmd: alg/merge/benchmark/CMakeFiles/bm-sorted_merge_3way-cmd.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bm-sorted_merge_3way-cmd"

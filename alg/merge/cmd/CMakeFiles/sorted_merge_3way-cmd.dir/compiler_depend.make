@@ -203,7 +203,7 @@ alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o: 
   /usr/lib/linux/uapi/x86/asm/posix_types_64.h \
   /usr/lib/linux/uapi/x86/asm/types.h
 
-alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/liblibmerge.a \
+alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/libmerge.a \
   /lib/x86_64-linux-gnu/libc.so.6 \
   /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libmvec.so.1 \
@@ -233,11 +233,11 @@ alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/crti.o:
 
-/usr/lib/x86_64-linux-gnu/Scrt1.o:
-
 /lib/x86_64-linux-gnu/libm.so.6:
 
-alg/merge/liblibmerge.a:
+/usr/lib/x86_64-linux-gnu/Scrt1.o:
+
+alg/merge/libmerge.a:
 
 /usr/lib/linux/uapi/x86/asm/bitsperlong.h:
 

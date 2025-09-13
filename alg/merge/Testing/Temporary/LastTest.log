@@ -1,10 +1,10 @@
-Start testing: Aug 30 18:29 -03
+Start testing: Sep 07 09:52 -03
 ----------------------------------------------------------
 1/2 Testing: JuntaListasTest.ValidMerge
 1/2 Test: JuntaListasTest.ValidMerge
 Command: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests" "--gtest_filter=JuntaListasTest.ValidMerge" "--gtest_also_run_disabled_tests"
 Directory: /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests
-"JuntaListasTest.ValidMerge" start time: Aug 30 18:29 -03
+"JuntaListasTest.ValidMerge" start time: Sep 07 09:52 -03
 Output:
 ----------------------------------------------------------
 Running main() from /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/googletest/googletest/src/gtest_main.cc
@@ -24,7 +24,7 @@ Note: Google Test filter = JuntaListasTest.ValidMerge
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"JuntaListasTest.ValidMerge" end time: Aug 30 18:29 -03
+"JuntaListasTest.ValidMerge" end time: Sep 07 09:52 -03
 "JuntaListasTest.ValidMerge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -32,7 +32,7 @@ Test Passed.
 2/2 Test: JuntaListasTest.UnsortedInput
 Command: "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests" "--gtest_filter=JuntaListasTest.UnsortedInput" "--gtest_also_run_disabled_tests"
 Directory: /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests
-"JuntaListasTest.UnsortedInput" start time: Aug 30 18:29 -03
+"JuntaListasTest.UnsortedInput" start time: Sep 07 09:52 -03
 Output:
 ----------------------------------------------------------
 Running main() from /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/googletest/googletest/src/gtest_main.cc
@@ -52,8 +52,8 @@ Alguma das listas nao esta ordenada
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"JuntaListasTest.UnsortedInput" end time: Aug 30 18:29 -03
+"JuntaListasTest.UnsortedInput" end time: Sep 07 09:52 -03
 "JuntaListasTest.UnsortedInput" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 30 18:29 -03
+End testing: Sep 07 09:52 -03

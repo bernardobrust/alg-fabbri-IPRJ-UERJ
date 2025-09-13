@@ -270,7 +270,7 @@ alg/merge/benchmark/CMakeFiles/bm-sorted_merge_3way-cmd.dir/bm_sorted_merge_3way
   /usr/lib/linux/uapi/x86/asm/types.h
 
 alg/merge/benchmark/bm-sorted_merge_3way-cmd: third_party/benchmark/src/libbenchmark.a \
-  alg/merge/liblibmerge.a \
+  alg/merge/libmerge.a \
   /lib/x86_64-linux-gnu/libc.so.6 \
   /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libmvec.so.1 \
@@ -308,6 +308,8 @@ alg/merge/benchmark/CMakeFiles/bm-sorted_merge_3way-cmd.dir/bm_sorted_merge_3way
 /usr/lib/x86_64-linux-gnu/libc.so:
 
 /lib64/ld-linux-x86-64.so.2:
+
+alg/merge/libmerge.a:
 
 third_party/benchmark/src/libbenchmark.a:
 
@@ -776,8 +778,6 @@ third_party/benchmark/include/benchmark/export.h:
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-alg/merge/liblibmerge.a:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 

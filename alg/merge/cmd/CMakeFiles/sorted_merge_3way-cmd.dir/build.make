@@ -96,7 +96,7 @@ sorted_merge_3way__cmd_EXTERNAL_OBJECTS =
 alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o
 alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/build.make
 alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/compiler_depend.ts
-alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/liblibmerge.a
+alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/libmerge.a
 alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sorted_merge_3way-cmd"
 	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sorted_merge_3way-cmd.dir/link.txt --verbose=$(VERBOSE)

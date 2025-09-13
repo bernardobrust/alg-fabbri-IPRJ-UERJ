@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(alg)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra -pedantic")
@@ -38,6 +40,8 @@ endif (alg_BUILD_TESTS)
 # Add the project's source code.
 #
 add_subdirectory(alg)
+add_subdirectory(a)
+
 
 # ------------------------------------------------------------------------------
 # Add a 'eval' target to run all bencchmarks

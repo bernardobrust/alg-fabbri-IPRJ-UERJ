@@ -185,6 +185,30 @@ run-tests/fast:
 	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/tests/CMakeFiles/run-tests.dir/build.make alg/merge/tests/CMakeFiles/run-tests.dir/build
 .PHONY : run-tests/fast
 
+test-linked_list_string.o: test-linked_list_string.cpp.o
+.PHONY : test-linked_list_string.o
+
+# target to build an object file
+test-linked_list_string.cpp.o:
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/tests/CMakeFiles/run-tests.dir/build.make alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o
+.PHONY : test-linked_list_string.cpp.o
+
+test-linked_list_string.i: test-linked_list_string.cpp.i
+.PHONY : test-linked_list_string.i
+
+# target to preprocess a source file
+test-linked_list_string.cpp.i:
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/tests/CMakeFiles/run-tests.dir/build.make alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.i
+.PHONY : test-linked_list_string.cpp.i
+
+test-linked_list_string.s: test-linked_list_string.cpp.s
+.PHONY : test-linked_list_string.s
+
+# target to generate assembly for a file
+test-linked_list_string.cpp.s:
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/tests/CMakeFiles/run-tests.dir/build.make alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.s
+.PHONY : test-linked_list_string.cpp.s
+
 test-sorted_merge_3way.o: test-sorted_merge_3way.cpp.o
 .PHONY : test-sorted_merge_3way.o
 
@@ -223,6 +247,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... run-tests"
+	@echo "... test-linked_list_string.o"
+	@echo "... test-linked_list_string.i"
+	@echo "... test-linked_list_string.s"
 	@echo "... test-sorted_merge_3way.o"
 	@echo "... test-sorted_merge_3way.i"
 	@echo "... test-sorted_merge_3way.s"

@@ -3,7 +3,7 @@ bm-sorted_merge_3way-cmd: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/bm-sorted_merge_3way-cmd.dir/bm_sorted_merge_3way.cpp.o \
-  ../liblibmerge.a \
+  ../libmerge.a \
   ../../../third_party/benchmark/src/libbenchmark.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/librt.a \
   /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so \
@@ -42,7 +42,7 @@ bm-sorted_merge_3way-cmd: \
 
 CMakeFiles/bm-sorted_merge_3way-cmd.dir/bm_sorted_merge_3way.cpp.o:
 
-../liblibmerge.a:
+../libmerge.a:
 
 ../../../third_party/benchmark/src/libbenchmark.a:
 

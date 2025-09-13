@@ -172,39 +172,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-alg/merge/CMakeFiles/libmerge.dir/rule:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/CMakeFiles/libmerge.dir/rule
-.PHONY : alg/merge/CMakeFiles/libmerge.dir/rule
+alg/merge/CMakeFiles/merge.dir/rule:
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/CMakeFiles/merge.dir/rule
+.PHONY : alg/merge/CMakeFiles/merge.dir/rule
 
 # Convenience name for target.
-libmerge: alg/merge/CMakeFiles/libmerge.dir/rule
-.PHONY : libmerge
+merge: alg/merge/CMakeFiles/merge.dir/rule
+.PHONY : merge
 
 # fast build rule for target.
-libmerge/fast:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/libmerge.dir/build.make alg/merge/CMakeFiles/libmerge.dir/build
-.PHONY : libmerge/fast
-
-# Convenience name for target.
-alg/merge/CMakeFiles/eval.dir/rule:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/CMakeFiles/eval.dir/rule
-.PHONY : alg/merge/CMakeFiles/eval.dir/rule
-
-# Convenience name for target.
-eval: alg/merge/CMakeFiles/eval.dir/rule
-.PHONY : eval
-
-# fast build rule for target.
-eval/fast:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/eval.dir/build.make alg/merge/CMakeFiles/eval.dir/build
-.PHONY : eval/fast
+merge/fast:
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/build
+.PHONY : merge/fast
 
 linked_list_string.o: linked_list_string.cpp.o
 .PHONY : linked_list_string.o
 
 # target to build an object file
 linked_list_string.cpp.o:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/libmerge.dir/build.make alg/merge/CMakeFiles/libmerge.dir/linked_list_string.cpp.o
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/linked_list_string.cpp.o
 .PHONY : linked_list_string.cpp.o
 
 linked_list_string.i: linked_list_string.cpp.i
@@ -212,7 +198,7 @@ linked_list_string.i: linked_list_string.cpp.i
 
 # target to preprocess a source file
 linked_list_string.cpp.i:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/libmerge.dir/build.make alg/merge/CMakeFiles/libmerge.dir/linked_list_string.cpp.i
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/linked_list_string.cpp.i
 .PHONY : linked_list_string.cpp.i
 
 linked_list_string.s: linked_list_string.cpp.s
@@ -220,7 +206,7 @@ linked_list_string.s: linked_list_string.cpp.s
 
 # target to generate assembly for a file
 linked_list_string.cpp.s:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/libmerge.dir/build.make alg/merge/CMakeFiles/libmerge.dir/linked_list_string.cpp.s
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/linked_list_string.cpp.s
 .PHONY : linked_list_string.cpp.s
 
 sorted_merge_3way.o: sorted_merge_3way.cpp.o
@@ -228,7 +214,7 @@ sorted_merge_3way.o: sorted_merge_3way.cpp.o
 
 # target to build an object file
 sorted_merge_3way.cpp.o:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/libmerge.dir/build.make alg/merge/CMakeFiles/libmerge.dir/sorted_merge_3way.cpp.o
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/sorted_merge_3way.cpp.o
 .PHONY : sorted_merge_3way.cpp.o
 
 sorted_merge_3way.i: sorted_merge_3way.cpp.i
@@ -236,7 +222,7 @@ sorted_merge_3way.i: sorted_merge_3way.cpp.i
 
 # target to preprocess a source file
 sorted_merge_3way.cpp.i:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/libmerge.dir/build.make alg/merge/CMakeFiles/libmerge.dir/sorted_merge_3way.cpp.i
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/sorted_merge_3way.cpp.i
 .PHONY : sorted_merge_3way.cpp.i
 
 sorted_merge_3way.s: sorted_merge_3way.cpp.s
@@ -244,7 +230,7 @@ sorted_merge_3way.s: sorted_merge_3way.cpp.s
 
 # target to generate assembly for a file
 sorted_merge_3way.cpp.s:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/libmerge.dir/build.make alg/merge/CMakeFiles/libmerge.dir/sorted_merge_3way.cpp.s
+	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/sorted_merge_3way.cpp.s
 .PHONY : sorted_merge_3way.cpp.s
 
 # Help Target
@@ -260,8 +246,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... eval"
-	@echo "... libmerge"
+	@echo "... merge"
 	@echo "... linked_list_string.o"
 	@echo "... linked_list_string.i"
 	@echo "... linked_list_string.s"

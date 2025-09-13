@@ -1,8 +1,6 @@
 pvt/
 priv/
 *.bak
-a
-a-bin
 CMakeCache.txt
 CMakeFiles/
 CTestTestfile.cmake
