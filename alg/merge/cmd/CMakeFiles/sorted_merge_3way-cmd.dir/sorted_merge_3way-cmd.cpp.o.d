@@ -1,5 +1,5 @@
 alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o: \
- /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd/sorted_merge_3way-cmd.cpp \
+ /home/be/CPP/algs_uerj/alg/merge/cmd/sorted_merge_3way-cmd.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14/iostream \
  /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
@@ -160,4 +160,4 @@ alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o: 
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
- /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/sorted_merge_3way.h
+ /home/be/CPP/algs_uerj/alg/merge/sorted_merge_3way.h

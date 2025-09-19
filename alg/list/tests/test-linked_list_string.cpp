@@ -262,3 +262,45 @@ TEST (NoPointerDoubleLinkTest, Delete)
 
   free_list (head);
 }
+
+TEST (SumLens, Sum)
+{
+  NoPointerSingleLink *head = nullptr;
+
+  head = insertToPointerSingle (head, (char *)"abc", 0);
+
+  EXPECT_EQ (sum (head), 3);
+
+  head = insertToPointerSingle (head, (char *)"abc", 0);
+  head = insertToPointerSingle (head, (char *)"bfed", 0);
+
+  EXPECT_EQ (sum (head), 10);
+
+  head = insertToPointerSingle (head, (char *)"abc", 0);
+  head = insertToPointerSingle (head, (char *)"bfed", 0);
+
+  EXPECT_EQ (sum (head), 17);
+
+  free_list (head);
+}
+
+TEST (SumLens, SumRec)
+{
+  NoPointerSingleLink *head = nullptr;
+
+  head = insertToPointerSingle (head, (char *)"abc", 0);
+
+  EXPECT_EQ (sumRec (head, 0), 3);
+
+  head = insertToPointerSingle (head, (char *)"abc", 1);
+  head = insertToPointerSingle (head, (char *)"bfed", 2);
+
+  EXPECT_EQ (sumRec (head, 0), 10);
+
+  head = insertToPointerSingle (head, (char *)"abc", 3);
+  head = insertToPointerSingle (head, (char *)"bfed", 4);
+
+  EXPECT_EQ (sumRec (head, 0), 17);
+
+  free_list (head);
+}

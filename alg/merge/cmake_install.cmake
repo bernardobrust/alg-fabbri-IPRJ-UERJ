@@ -1,4 +1,4 @@
-# Install script for directory: /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge
+# Install script for directory: /home/be/CPP/algs_uerj/alg/merge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,15 +44,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd/cmake_install.cmake")
-  include("/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/cmake_install.cmake")
-  include("/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/benchmark/cmake_install.cmake")
+  include("/home/be/CPP/algs_uerj/alg/merge/cmd/cmake_install.cmake")
+  include("/home/be/CPP/algs_uerj/alg/merge/tests/cmake_install.cmake")
+  include("/home/be/CPP/algs_uerj/alg/merge/benchmark/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/install_local_manifest.txt"
+  file(WRITE "/home/be/CPP/algs_uerj/alg/merge/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

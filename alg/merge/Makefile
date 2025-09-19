@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/be/CPP/alg-fabbri-IPRJ-UERJ
+CMAKE_SOURCE_DIR = /home/be/CPP/algs_uerj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/be/CPP/alg-fabbri-IPRJ-UERJ
+CMAKE_BINARY_DIR = /home/be/CPP/algs_uerj
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(CMAKE_COMMAND) -E cmake_progress_start /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge//CMakeFiles/progress.marks
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles 0
+	cd /home/be/CPP/algs_uerj && $(CMAKE_COMMAND) -E cmake_progress_start /home/be/CPP/algs_uerj/CMakeFiles /home/be/CPP/algs_uerj/alg/merge//CMakeFiles/progress.marks
+	cd /home/be/CPP/algs_uerj && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/be/CPP/algs_uerj/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/clean
+	cd /home/be/CPP/algs_uerj && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/preinstall
+	cd /home/be/CPP/algs_uerj && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/preinstall
+	cd /home/be/CPP/algs_uerj && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/be/CPP/algs_uerj && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 alg/merge/CMakeFiles/merge.dir/rule:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/CMakeFiles/merge.dir/rule
+	cd /home/be/CPP/algs_uerj && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alg/merge/CMakeFiles/merge.dir/rule
 .PHONY : alg/merge/CMakeFiles/merge.dir/rule
 
 # Convenience name for target.
@@ -182,39 +182,15 @@ merge: alg/merge/CMakeFiles/merge.dir/rule
 
 # fast build rule for target.
 merge/fast:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/build
+	cd /home/be/CPP/algs_uerj && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/build
 .PHONY : merge/fast
-
-linked_list_string.o: linked_list_string.cpp.o
-.PHONY : linked_list_string.o
-
-# target to build an object file
-linked_list_string.cpp.o:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/linked_list_string.cpp.o
-.PHONY : linked_list_string.cpp.o
-
-linked_list_string.i: linked_list_string.cpp.i
-.PHONY : linked_list_string.i
-
-# target to preprocess a source file
-linked_list_string.cpp.i:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/linked_list_string.cpp.i
-.PHONY : linked_list_string.cpp.i
-
-linked_list_string.s: linked_list_string.cpp.s
-.PHONY : linked_list_string.s
-
-# target to generate assembly for a file
-linked_list_string.cpp.s:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/linked_list_string.cpp.s
-.PHONY : linked_list_string.cpp.s
 
 sorted_merge_3way.o: sorted_merge_3way.cpp.o
 .PHONY : sorted_merge_3way.o
 
 # target to build an object file
 sorted_merge_3way.cpp.o:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/sorted_merge_3way.cpp.o
+	cd /home/be/CPP/algs_uerj && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/sorted_merge_3way.cpp.o
 .PHONY : sorted_merge_3way.cpp.o
 
 sorted_merge_3way.i: sorted_merge_3way.cpp.i
@@ -222,7 +198,7 @@ sorted_merge_3way.i: sorted_merge_3way.cpp.i
 
 # target to preprocess a source file
 sorted_merge_3way.cpp.i:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/sorted_merge_3way.cpp.i
+	cd /home/be/CPP/algs_uerj && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/sorted_merge_3way.cpp.i
 .PHONY : sorted_merge_3way.cpp.i
 
 sorted_merge_3way.s: sorted_merge_3way.cpp.s
@@ -230,7 +206,7 @@ sorted_merge_3way.s: sorted_merge_3way.cpp.s
 
 # target to generate assembly for a file
 sorted_merge_3way.cpp.s:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/sorted_merge_3way.cpp.s
+	cd /home/be/CPP/algs_uerj && $(MAKE) $(MAKESILENT) -f alg/merge/CMakeFiles/merge.dir/build.make alg/merge/CMakeFiles/merge.dir/sorted_merge_3way.cpp.s
 .PHONY : sorted_merge_3way.cpp.s
 
 # Help Target
@@ -247,9 +223,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... merge"
-	@echo "... linked_list_string.o"
-	@echo "... linked_list_string.i"
-	@echo "... linked_list_string.s"
 	@echo "... sorted_merge_3way.o"
 	@echo "... sorted_merge_3way.i"
 	@echo "... sorted_merge_3way.s"
@@ -264,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/be/CPP/algs_uerj && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

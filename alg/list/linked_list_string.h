@@ -58,4 +58,8 @@ void getFromPointerSingle (NoPointerSingleLink *head, int pos);
 void getFromArrayDouble (NoArrayDoubleLink *head, int pos);
 void getFromPointerDouble (NoPointerDoubleLink *head, int pos);
 
+// Other operations
+int sum (NoPointerSingleLink *head);
+int sumRec (NoPointerSingleLink *head, int acc);
+
 #endif /* LINKED_LIST_STRING_H */

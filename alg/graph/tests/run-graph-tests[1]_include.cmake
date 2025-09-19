@@ -1,0 +1,5 @@
+if(EXISTS "/home/be/CPP/algs_uerj/alg/graph/tests/run-graph-tests[1]_tests.cmake")
+  include("/home/be/CPP/algs_uerj/alg/graph/tests/run-graph-tests[1]_tests.cmake")
+else()
+  add_test(run-graph-tests_NOT_BUILT run-graph-tests_NOT_BUILT)
+endif()

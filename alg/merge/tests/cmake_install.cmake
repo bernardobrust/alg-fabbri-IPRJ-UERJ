@@ -1,4 +1,4 @@
-# Install script for directory: /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests
+# Install script for directory: /home/be/CPP/algs_uerj/alg/merge/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/install_local_manifest.txt"
+  file(WRITE "/home/be/CPP/algs_uerj/alg/merge/tests/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

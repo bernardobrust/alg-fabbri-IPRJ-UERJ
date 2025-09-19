@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd/sorted_merge_3way-cmd.cpp" "alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o" "gcc" "alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o.d"
+  "/home/be/CPP/algs_uerj/alg/merge/cmd/sorted_merge_3way-cmd.cpp" "alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o" "gcc" "alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o.d"
   "" "alg/merge/cmd/sorted_merge_3way-cmd" "gcc" "alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/link.d"
   )
 

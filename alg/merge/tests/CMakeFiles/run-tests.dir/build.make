@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/be/CPP/alg-fabbri-IPRJ-UERJ
+CMAKE_SOURCE_DIR = /home/be/CPP/algs_uerj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/be/CPP/alg-fabbri-IPRJ-UERJ
+CMAKE_BINARY_DIR = /home/be/CPP/algs_uerj
 
 # Include any dependencies generated for this target.
 include alg/merge/tests/CMakeFiles/run-tests.dir/depend.make
@@ -75,60 +75,44 @@ alg/merge/tests/CMakeFiles/run-tests.dir/codegen:
 alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o: alg/merge/tests/CMakeFiles/run-tests.dir/flags.make
 alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o: alg/merge/tests/test-sorted_merge_3way.cpp
 alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o: alg/merge/tests/CMakeFiles/run-tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o -MF CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o.d -o CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/test-sorted_merge_3way.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/be/CPP/algs_uerj/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o"
+	cd /home/be/CPP/algs_uerj/alg/merge/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o -MF CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o.d -o CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o -c /home/be/CPP/algs_uerj/alg/merge/tests/test-sorted_merge_3way.cpp
 
 alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.i"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/test-sorted_merge_3way.cpp > CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.i
+	cd /home/be/CPP/algs_uerj/alg/merge/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/be/CPP/algs_uerj/alg/merge/tests/test-sorted_merge_3way.cpp > CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.i
 
 alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.s"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/test-sorted_merge_3way.cpp -o CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.s
-
-alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o: alg/merge/tests/CMakeFiles/run-tests.dir/flags.make
-alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o: alg/merge/tests/test-linked_list_string.cpp
-alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o: alg/merge/tests/CMakeFiles/run-tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o -MF CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o.d -o CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/test-linked_list_string.cpp
-
-alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run-tests.dir/test-linked_list_string.cpp.i"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/test-linked_list_string.cpp > CMakeFiles/run-tests.dir/test-linked_list_string.cpp.i
-
-alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run-tests.dir/test-linked_list_string.cpp.s"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/test-linked_list_string.cpp -o CMakeFiles/run-tests.dir/test-linked_list_string.cpp.s
+	cd /home/be/CPP/algs_uerj/alg/merge/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/be/CPP/algs_uerj/alg/merge/tests/test-sorted_merge_3way.cpp -o CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.s
 
 # Object files for target run-tests
 run__tests_OBJECTS = \
-"CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o" \
-"CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o"
+"CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o"
 
 # External object files for target run-tests
 run__tests_EXTERNAL_OBJECTS =
 
 alg/merge/tests/run-tests: alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o
-alg/merge/tests/run-tests: alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o
 alg/merge/tests/run-tests: alg/merge/tests/CMakeFiles/run-tests.dir/build.make
 alg/merge/tests/run-tests: alg/merge/tests/CMakeFiles/run-tests.dir/compiler_depend.ts
 alg/merge/tests/run-tests: alg/merge/libmerge.a
 alg/merge/tests/run-tests: lib/libgtest_main.a
 alg/merge/tests/run-tests: lib/libgtest.a
 alg/merge/tests/run-tests: alg/merge/tests/CMakeFiles/run-tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable run-tests"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run-tests.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests && /usr/bin/cmake -D TEST_TARGET=run-tests -D TEST_EXECUTABLE=/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=run-tests_TESTS -D CTEST_FILE=/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/run-tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.31/Modules/GoogleTestAddTests.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/be/CPP/algs_uerj/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run-tests"
+	cd /home/be/CPP/algs_uerj/alg/merge/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run-tests.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/be/CPP/algs_uerj/alg/merge/tests && /usr/bin/cmake -D TEST_TARGET=run-tests -D TEST_EXECUTABLE=/home/be/CPP/algs_uerj/alg/merge/tests/run-tests -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/be/CPP/algs_uerj/alg/merge/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=run-tests_TESTS -D CTEST_FILE=/home/be/CPP/algs_uerj/alg/merge/tests/run-tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.31/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 alg/merge/tests/CMakeFiles/run-tests.dir/build: alg/merge/tests/run-tests
 .PHONY : alg/merge/tests/CMakeFiles/run-tests.dir/build
 
 alg/merge/tests/CMakeFiles/run-tests.dir/clean:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests && $(CMAKE_COMMAND) -P CMakeFiles/run-tests.dir/cmake_clean.cmake
+	cd /home/be/CPP/algs_uerj/alg/merge/tests && $(CMAKE_COMMAND) -P CMakeFiles/run-tests.dir/cmake_clean.cmake
 .PHONY : alg/merge/tests/CMakeFiles/run-tests.dir/clean
 
 alg/merge/tests/CMakeFiles/run-tests.dir/depend:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/be/CPP/alg-fabbri-IPRJ-UERJ /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests /home/be/CPP/alg-fabbri-IPRJ-UERJ /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/CMakeFiles/run-tests.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/be/CPP/algs_uerj && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/be/CPP/algs_uerj /home/be/CPP/algs_uerj/alg/merge/tests /home/be/CPP/algs_uerj /home/be/CPP/algs_uerj/alg/merge/tests /home/be/CPP/algs_uerj/alg/merge/tests/CMakeFiles/run-tests.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : alg/merge/tests/CMakeFiles/run-tests.dir/depend
 

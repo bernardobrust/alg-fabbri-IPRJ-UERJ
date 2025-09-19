@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/test-linked_list_string.cpp" "alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o" "gcc" "alg/merge/tests/CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o.d"
-  "/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/tests/test-sorted_merge_3way.cpp" "alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o" "gcc" "alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o.d"
+  "/home/be/CPP/algs_uerj/alg/merge/tests/test-sorted_merge_3way.cpp" "alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o" "gcc" "alg/merge/tests/CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o.d"
   "" "alg/merge/tests/run-tests" "gcc" "alg/merge/tests/CMakeFiles/run-tests.dir/link.d"
   )
 

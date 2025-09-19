@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/run-tests.dir/link.d"
-  "CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o"
-  "CMakeFiles/run-tests.dir/test-linked_list_string.cpp.o.d"
   "CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o"
   "CMakeFiles/run-tests.dir/test-sorted_merge_3way.cpp.o.d"
   "run-tests"

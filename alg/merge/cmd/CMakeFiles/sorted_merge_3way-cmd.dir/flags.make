@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge
+CXX_INCLUDES = -I/home/be/CPP/algs_uerj/alg/merge
 
 CXX_FLAGS =  -Wall -Wextra -pedantic -std=gnu++17
 

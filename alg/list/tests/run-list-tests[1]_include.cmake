@@ -1,0 +1,5 @@
+if(EXISTS "/home/be/CPP/algs_uerj/alg/list/tests/run-list-tests[1]_tests.cmake")
+  include("/home/be/CPP/algs_uerj/alg/list/tests/run-list-tests[1]_tests.cmake")
+else()
+  add_test(run-list-tests_NOT_BUILT run-list-tests_NOT_BUILT)
+endif()

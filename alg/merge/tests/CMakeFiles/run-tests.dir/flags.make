@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge -isystem /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/googletest/googletest/include -isystem /home/be/CPP/alg-fabbri-IPRJ-UERJ/third_party/googletest/googletest
+CXX_INCLUDES = -I/home/be/CPP/algs_uerj/alg/merge -isystem /home/be/CPP/algs_uerj/third_party/googletest/googletest/include -isystem /home/be/CPP/algs_uerj/third_party/googletest/googletest
 
 CXX_FLAGS =  -Wall -Wextra -pedantic -std=gnu++17
 

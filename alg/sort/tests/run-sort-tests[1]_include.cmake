@@ -1,0 +1,5 @@
+if(EXISTS "/home/be/CPP/algs_uerj/alg/sort/tests/run-sort-tests[1]_tests.cmake")
+  include("/home/be/CPP/algs_uerj/alg/sort/tests/run-sort-tests[1]_tests.cmake")
+else()
+  add_test(run-sort-tests_NOT_BUILT run-sort-tests_NOT_BUILT)
+endif()

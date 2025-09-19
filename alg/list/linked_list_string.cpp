@@ -512,3 +512,32 @@ getFromPointerDouble (NoPointerDoubleLink *head, int pos)
       printf ("Item %d: %s\n", i, current->name);
     }
 }
+
+// Other operations
+int
+sum (NoPointerSingleLink *head)
+{
+  int sum{ 0 };
+
+  if (!head)
+    return 0;
+
+  NoPointerSingleLink *cur{ head };
+
+  while (cur)
+    {
+      sum += strlen (cur->name);
+      cur = cur->next;
+    }
+
+  return sum;
+}
+
+int
+sumRec (NoPointerSingleLink *head, int acc)
+{
+  if (!head)
+    return acc;
+
+  return sumRec (head->next, acc + strlen (head->name));
+}

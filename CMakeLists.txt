@@ -40,7 +40,6 @@ endif (alg_BUILD_TESTS)
 # Add the project's source code.
 #
 add_subdirectory(alg)
-add_subdirectory(a)
 
 
 # ------------------------------------------------------------------------------

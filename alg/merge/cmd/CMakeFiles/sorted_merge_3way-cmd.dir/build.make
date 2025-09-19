@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/be/CPP/alg-fabbri-IPRJ-UERJ
+CMAKE_SOURCE_DIR = /home/be/CPP/algs_uerj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/be/CPP/alg-fabbri-IPRJ-UERJ
+CMAKE_BINARY_DIR = /home/be/CPP/algs_uerj
 
 # Include any dependencies generated for this target.
 include alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/depend.make
@@ -75,16 +75,16 @@ alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/codegen:
 alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o: alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/flags.make
 alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o: alg/merge/cmd/sorted_merge_3way-cmd.cpp
 alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o: alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o -MF CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o.d -o CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o -c /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd/sorted_merge_3way-cmd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/be/CPP/algs_uerj/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o"
+	cd /home/be/CPP/algs_uerj/alg/merge/cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o -MF CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o.d -o CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.o -c /home/be/CPP/algs_uerj/alg/merge/cmd/sorted_merge_3way-cmd.cpp
 
 alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.i"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd/sorted_merge_3way-cmd.cpp > CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.i
+	cd /home/be/CPP/algs_uerj/alg/merge/cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/be/CPP/algs_uerj/alg/merge/cmd/sorted_merge_3way-cmd.cpp > CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.i
 
 alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.s"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd/sorted_merge_3way-cmd.cpp -o CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.s
+	cd /home/be/CPP/algs_uerj/alg/merge/cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/be/CPP/algs_uerj/alg/merge/cmd/sorted_merge_3way-cmd.cpp -o CMakeFiles/sorted_merge_3way-cmd.dir/sorted_merge_3way-cmd.cpp.s
 
 # Object files for target sorted_merge_3way-cmd
 sorted_merge_3way__cmd_OBJECTS = \
@@ -98,18 +98,18 @@ alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/cmd/CMakeFiles/sorted_merge_3way-
 alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/compiler_depend.ts
 alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/libmerge.a
 alg/merge/cmd/sorted_merge_3way-cmd: alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/be/CPP/alg-fabbri-IPRJ-UERJ/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sorted_merge_3way-cmd"
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sorted_merge_3way-cmd.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/be/CPP/algs_uerj/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sorted_merge_3way-cmd"
+	cd /home/be/CPP/algs_uerj/alg/merge/cmd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sorted_merge_3way-cmd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/build: alg/merge/cmd/sorted_merge_3way-cmd
 .PHONY : alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/build
 
 alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/clean:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd && $(CMAKE_COMMAND) -P CMakeFiles/sorted_merge_3way-cmd.dir/cmake_clean.cmake
+	cd /home/be/CPP/algs_uerj/alg/merge/cmd && $(CMAKE_COMMAND) -P CMakeFiles/sorted_merge_3way-cmd.dir/cmake_clean.cmake
 .PHONY : alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/clean
 
 alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/depend:
-	cd /home/be/CPP/alg-fabbri-IPRJ-UERJ && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/be/CPP/alg-fabbri-IPRJ-UERJ /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd /home/be/CPP/alg-fabbri-IPRJ-UERJ /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd /home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/be/CPP/algs_uerj && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/be/CPP/algs_uerj /home/be/CPP/algs_uerj/alg/merge/cmd /home/be/CPP/algs_uerj /home/be/CPP/algs_uerj/alg/merge/cmd /home/be/CPP/algs_uerj/alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : alg/merge/cmd/CMakeFiles/sorted_merge_3way-cmd.dir/depend
 
