@@ -24,3 +24,13 @@ TEST (SumTests, Sum2)
   root->right = plant_tree ((char *)"def");
   EXPECT_EQ (sumRec (root, 0), 12);
 }
+
+TEST (VSTreeSumTests, Sum3)
+{
+  vs_tree *root = create_vs_tree ((char *)"Root");
+  root->fChild = create_vs_tree ((char *)"Level1-1");
+  root->fChild->nSibling = create_vs_tree ((char *)"Level1-2");
+  root->fChild->fChild = create_vs_tree ((char *)"level2-1");
+
+  EXPECT_EQ (sumRecVstree (root, 0), 28);
+}
