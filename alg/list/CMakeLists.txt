@@ -1,5 +1,6 @@
 add_library(list
   linked_list_string.cpp
+  big_string.cpp
 )
 
 target_include_directories(list PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

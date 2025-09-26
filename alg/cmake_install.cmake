@@ -45,6 +45,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/merge/cmake_install.cmake")
+  include("/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/list/cmake_install.cmake")
+  include("/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/sort/cmake_install.cmake")
+  include("/home/be/CPP/alg-fabbri-IPRJ-UERJ/alg/graph/cmake_install.cmake")
 
 endif()
 
