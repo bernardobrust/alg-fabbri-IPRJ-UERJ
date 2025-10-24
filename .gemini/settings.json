@@ -1,5 +1,11 @@
 {
-  "selectedAuthType": "oauth-personal",
-  "vimMode": true,
-  "preferredEditor": "vim"
+  "general": {
+    "preferredEditor": "vim",
+    "vimMode": true
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  }
 }
