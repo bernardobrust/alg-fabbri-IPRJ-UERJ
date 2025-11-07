@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761329200990,
+  "lastUpdate": 1762536040651,
   "repoUrl": "https://github.com/bernardobrust/alg-fabbri-IPRJ-UERJ",
   "entries": {
     "C++ Benchmark Results": [
@@ -1260,6 +1260,96 @@ window.BENCHMARK_DATA = {
             "value": 57983054.166667126,
             "unit": "ns/iter",
             "extra": "iterations: 12\ncpu: 57976418.50000002 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bernardo.toledo.pereira@gmail.com",
+            "name": "Bernardo Brust",
+            "username": "bernardobrust"
+          },
+          "committer": {
+            "email": "bernardo.toledo.pereira@gmail.com",
+            "name": "Bernardo Brust",
+            "username": "bernardobrust"
+          },
+          "distinct": true,
+          "id": "43fb2ef7e68019c3bb7b38589717f1d8b5b7238f",
+          "message": "Rope lesson",
+          "timestamp": "2025-11-07T14:18:22-03:00",
+          "tree_id": "b5d801e4e79d135c5190ad88b54329f0c7e3dc4c",
+          "url": "https://github.com/bernardobrust/alg-fabbri-IPRJ-UERJ/commit/43fb2ef7e68019c3bb7b38589717f1d8b5b7238f"
+        },
+        "date": 1762536040079,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/0",
+            "value": 20.230027786897814,
+            "unit": "ns/iter",
+            "extra": "iterations: 34497554\ncpu: 20.224902814848846 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1",
+            "value": 85.93860779335303,
+            "unit": "ns/iter",
+            "extra": "iterations: 8098927\ncpu: 85.92795428332666 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/2",
+            "value": 149.90896512794728,
+            "unit": "ns/iter",
+            "extra": "iterations: 4673341\ncpu: 149.90531998413985 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10",
+            "value": 683.2383575315399,
+            "unit": "ns/iter",
+            "extra": "iterations: 1052075\ncpu: 683.0414457144216 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/50",
+            "value": 3251.629444611786,
+            "unit": "ns/iter",
+            "extra": "iterations: 215795\ncpu: 3250.94391436317 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100",
+            "value": 6485.072234214727,
+            "unit": "ns/iter",
+            "extra": "iterations: 107013\ncpu: 6483.241886499765 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/500",
+            "value": 34667.165054324025,
+            "unit": "ns/iter",
+            "extra": "iterations: 20157\ncpu: 34657.64692166496 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000",
+            "value": 75416.43717137014,
+            "unit": "ns/iter",
+            "extra": "iterations: 9319\ncpu: 75407.8761669707 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/10000",
+            "value": 875815.2144638306,
+            "unit": "ns/iter",
+            "extra": "iterations: 802\ncpu: 875626.3915211977 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/100000",
+            "value": 8268014.8705883445,
+            "unit": "ns/iter",
+            "extra": "iterations: 85\ncpu: 8267216.776470597 ns\nthreads: 1"
+          },
+          {
+            "name": "sorted_merge_3way_fixture/BM_sorted_merge_3way/1000000",
+            "value": 58016324.99999935,
+            "unit": "ns/iter",
+            "extra": "iterations: 12\ncpu: 58000912.666666664 ns\nthreads: 1"
           }
         ]
       }
