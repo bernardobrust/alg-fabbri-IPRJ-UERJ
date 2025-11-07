@@ -54,7 +54,7 @@ NoPointerDoubleLink *deleteFromPointerDouble (NoPointerDoubleLink *head,
 
 // Gets
 void getFromArraySingle (NoArraySingleLink *head, int pos);
-void getFromPointerSingle (NoPointerSingleLink *head, int pos);
+NoPointerSingleLink* getFromPointerSingle (NoPointerSingleLink *head, int pos);
 void getFromArrayDouble (NoArrayDoubleLink *head, int pos);
 void getFromPointerDouble (NoPointerDoubleLink *head, int pos);
 

@@ -402,7 +402,7 @@ getFromArraySingle (NoArraySingleLink *head, int pos)
     }
 }
 
-void
+NoPointerSingleLink*
 getFromPointerSingle (NoPointerSingleLink *head, int pos)
 {
   NoPointerSingleLink *current = head;
@@ -422,6 +422,7 @@ getFromPointerSingle (NoPointerSingleLink *head, int pos)
       if (head == nullptr)
         {
           printf ("Posicao invalida, ultimo: (null)\n");
+          return nullptr;
         }
       else
         {
@@ -431,12 +432,11 @@ getFromPointerSingle (NoPointerSingleLink *head, int pos)
               last = last->next;
             }
           printf ("Posicao invalida, ultimo: %s\n", last->name);
+          return nullptr;
         }
     }
   else
-    {
-      printf ("Item %d: %s\n", i, current->name);
-    }
+      return current;
 }
 
 void
