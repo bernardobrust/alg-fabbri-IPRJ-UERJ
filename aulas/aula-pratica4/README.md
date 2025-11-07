@@ -35,5 +35,8 @@ Then create a new one 'sort' for general sorting
 ## List exercise 30min
 - Who have everything working gets grading for homework
 - In class: Finish your list editor homework 100%
-    - Oly get grade if 100% finished
+    - Only get grade if 100% finished
 - May use AI
+- Those that did not make all tests pass for previous homework cannot partake this activity
+
+# UNDER CONSTRUCTION -----------------------------------------------------------

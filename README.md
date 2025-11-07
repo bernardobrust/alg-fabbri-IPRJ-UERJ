@@ -196,7 +196,7 @@ pelo professor, onde a lista encadeada pode armazenar um tipo de dado mais
 complexo que int. Realize treinos programando exercicio de livros ou internet
 sobre lista encadeada. *Pode usar IA nesta avaliacao especificamente.*
 
-### Tarefa 3 para sex05set25
+### Tarefa 3 para (sex12set25, era: sex05set25)
 
 #### Mini-tarefa: ler sobre git branching
 Ler capitulo 3 do livro Pro Git https://git-scm.com (Getting Started e
@@ -217,7 +217,17 @@ As listas sao todas de strings
 - Permitir ao usuario escolher a representacao de string dentro de no: char * ou
   char name[MAX_CHARS]
 - Escrever casos de teste para cada combinacao na pasta tests/
-
+- Maiores esclarecimentos: https://github.com/rfabbri/alg-fabbri-IPRJ-UERJ/issues/2
+- FUTURO: separar em backend/frontend:
+    - especificar stdin/stdout format style com ctrl-D se quiser interativo
+    - ldi"data"f : comandos de 1 letra e numeros: (l) list (d) dinamic (i)
+      insert "data" (f) front
+    - d20 : delete 20th element
+    - seria uma minilinguagem extremamente simples, com os comandos de teclado
+      como o usuario faria
+    - o frontend simplemente traduziria para isso
+    - maquina de estado separada
+    - estilo eric raymond hacker
 
 ## Livros
 - A melhor referencia para cada algoritmo

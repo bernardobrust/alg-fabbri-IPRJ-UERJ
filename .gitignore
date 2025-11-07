@@ -12,3 +12,4 @@ cmake_install.cmake
 run-tests
 run-tests*include.cmake
 run-tests*tests.cmake
+*.sw*

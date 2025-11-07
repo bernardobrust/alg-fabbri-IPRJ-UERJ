@@ -6,7 +6,7 @@
 - foi trabalhada a tarefa 2 sobre listas encadeadas
     - Iniciamos um novo arquivo no build system para incluir a lista encadeaa
     - Iniciamos duas formas de se declarar e alocar um nó que contém uma string
-        - uma com char *nome e outr com char nome[max] dentro do no.
+        - uma com char *nome e outra com char nome[max] dentro do no.
         - praticamos como ponteiros funcionam, malloc, literais constantes de string
           pre-alocadas, etc.
 - Foi dada nota a todos os alunos que responderam à chamada e fizeram um relato
